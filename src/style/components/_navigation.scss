@@ -1,0 +1,37 @@
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: 0 auto;
+
+
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        li{            
+            font-family: $font-1;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 3px 15px;
+            border: 2px solid white;
+
+            &:hover,
+             &.nav-active li {
+                color: $color-2;
+                border: 2px solid $color-1;
+                background-color: $color-1;
+                border-radius: 10px;
+                padding: 3px 15px;
+            }
+        }
+
+
+
+        
+    }
+
+    
+
+}

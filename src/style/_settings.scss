@@ -5,6 +5,9 @@
 
 $font-1: "font-1", sans-serif;
 
+$color-1: rgb(0,142,129);
+$color-2: rgb(238, 244, 238);
+
 
 * {
     margin: 0;
@@ -14,4 +17,8 @@ $font-1: "font-1", sans-serif;
     outline: none;
     border: none;
     text-decoration: none;
+}
+
+a:visited {
+  color:black;
 }
