@@ -1,9 +1,12 @@
-.navigation{
-    display: flex;
-    justify-content: space-around;
-    max-width: 70%;
-    margin: 0 auto;
-
+.navigation{ 
+    position: fixed; 
+    top: 0;  
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+    margin: 0 auto;  
+    display: flex;    
+    justify-content: space-around;  
 
     ul{
         display: flex;
@@ -16,22 +19,31 @@
             font-weight: bold;
             padding: 3px 15px;
             border: 2px solid white;
+            transition: 0.5s;
 
-            &:hover,
-             &.nav-active li {
+            &:hover {
                 color: $color-2;
                 border: 2px solid $color-1;
                 background-color: $color-1;
                 border-radius: 10px;
                 padding: 3px 15px;
-            }
-        }
-
-
-
-        
+            }           
+        }        
     }
 
-    
+    .nav-active {
+        color: $color-1;
+        font-size: 1.5rem;
+    }
 
+}
+
+.navigation::after{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 70%;
+    top: 90px;
+    background: $color-1;
+    box-shadow: 4px 3px 5px $color-1;
 }

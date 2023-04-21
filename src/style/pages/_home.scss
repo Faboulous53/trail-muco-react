@@ -1,0 +1,59 @@
+.content-header{
+    max-width: 70%;
+    margin: 150px auto 0;
+    text-align: center;
+
+    .site-off{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img{            
+            width: 150px;
+            opacity: 0;
+            animation: mucoAnim 2s ease-in-out forwards;                   
+        }  
+        
+        button{
+            margin: 20px 0;
+            font-family: $font-1;
+            letter-spacing: 2px;
+            font-weight: bold;
+            background: $color-1;
+            padding: 10px 20px;
+            border-radius: 30px;
+            border: 2px solid white;
+            cursor: pointer;
+            transition: 0.5s;
+            opacity: 0;
+            animation: mucoAnim 4s ease-in-out forwards;
+
+            &:hover{
+                border: 2px solid $color-1;
+                background: white;
+                color: $color-1;
+            }
+        }
+    }    
+}
+
+.content-header::after{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 30%;    
+    transform: translate(-50%);
+    background: rgb(191, 229, 226);
+    border-radius: 10px;
+   
+}
+
+@keyframes mucoAnim {
+    0% {
+      opacity: 0;;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
