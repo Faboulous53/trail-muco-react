@@ -2,6 +2,8 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 
 const Home = () => {
+    let text = "Depuis bientôt 15 ans, un groupe de bénévoles organisent ce trail muco pour récolter des fonds dans le pays de Vitré pour lutter contre la mucoviscidose.";
+    
     return (
         <div>
             <Navigation />

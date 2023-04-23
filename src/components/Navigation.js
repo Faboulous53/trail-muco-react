@@ -1,14 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
+    const [showLinks, setShowLinks] = useState(false);
+
+    const handlkeShowLinks = () => {
+        setShowLinks(!showLinks)
+    }
+
     return (
        <div className="navigation">
         <div className="logo">
             <img src="./assets/img/logoTitrev3.png" alt="logo trail-muco Pays de Vitré"/>
         </div>
 
-        <ul>
+        <div className={`responsive-menu ${showLinks ? "show-nav" : ""}`} onClick={handlkeShowLinks}>
+            <span></span>
+            
+            
+        </div>
+
+        <ul className={showLinks ?'show-nav': ""}>
             <NavLink to="/"
             className={(nav) => (nav.isActive ? "nav-active" : "")}>
             <li>Accueil</li>
