@@ -5,15 +5,16 @@ const Navigation = () => {
     const [showLinks, setShowLinks] = useState(false);
 
     const handlkeShowLinks = () => {
-        setShowLinks(!showLinks)
+        setShowLinks(!showLinks);
     }
 
     return (
        <div className="navigation">
+        <NavLink to="/">
         <div className="logo">
             <img src="./assets/img/logoTitrev3.png" alt="logo trail-muco Pays de Vitré"/>
         </div>
-
+        </NavLink>
         <div className={`responsive-menu ${showLinks ? "show-nav" : ""}`} onClick={handlkeShowLinks}>
             <span></span>
             
