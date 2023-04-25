@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -22,22 +23,27 @@ const Home = () => {
             </header>
             <section className="new-trail">
                 <img
-                    src="./assets/img/edition2023.webp"
+                    src="./assets/img/imageSlider1-2.png"
                     alt="trail muco édition 2023"
                 />
+                <h1>Trail Muco</h1>
+                <h3>6 et 7 octobre 2023</h3>
             </section>
             <section className="why-trail">
                 <div className="why-trail-left">
                     <div className="why-trail-header">
-                        <h1>Trail muco</h1>
+                        <h2 className="first-title">Trail muco</h2>
                         <h3>Pourquoi?</h3>
-                        <p className='align'>
+                        <p className="align">
                             Comprendre en quelques mots qui nous sommes et ce
                             qui nous anime depuis de nombreuses années.
                         </p>
                     </div>
                     <div className="why-trail-first">
-                        <h2><i class="fa-solid fa-house-medical-circle-check"></i>Vaincre la mucoviscidose.</h2>                        
+                        <h2>
+                            <i class="fa-solid fa-house-medical-circle-check"></i>
+                            Vaincre la mucoviscidose.
+                        </h2>
                         <p>
                             Depuis bientôt 15 ans, un groupe de bénévoles
                             organisent ce trail muco pour récolter des fonds
@@ -46,8 +52,11 @@ const Home = () => {
                         </p>
                     </div>
                     <div className="why-trail-center">
-                        <h2><i class="fa-solid fa-people-group"></i>Des partenaires pour une bonne cause.</h2>
-                        
+                        <h2>
+                            <i class="fa-solid fa-people-group"></i>Des
+                            partenaires pour une bonne cause.
+                        </h2>
+
                         <p>
                             De nombreux partenaires fidèles nous soutiennent
                             dans notre action et nous permettent d'aller
@@ -56,8 +65,11 @@ const Home = () => {
                         </p>
                     </div>
                     <div className="why-trail-last">
-                        <h2><i class="fa-solid fa-person-running"></i>Des coureurs et des marcheurs.</h2>
-                        
+                        <h2>
+                            <i class="fa-solid fa-person-running"></i>Des
+                            coureurs et des marcheurs.
+                        </h2>
+
                         <p>
                             Vous êtes de plus en plus nombreux à venir tester
                             votre nature au travers des différentes courses et
@@ -68,10 +80,59 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="why-trail-right">
+                    <h2>Instant challenge!</h2>
                     <img
                         src="./assets/img/moveformuco.jpg"
                         alt="move for muco"
                     />
+                </div>
+            </section>
+            <section className="why-trail">
+                <div className="content-register-left">
+                    <img
+                        src="./assets/img/Benevolat.webp"
+                        alt="muco bénévolat"
+                    />
+                </div>
+                <div className="content-register-right">
+                    <h2>Qui veut participer?</h2>
+                    <p>4 bonnes raisons de nous rejoindre</p>
+                    <ul>
+                        <li>
+                            <i class="fa-regular fa-circle-check"></i> Petits et
+                            grands coureurs, venez tester votre nature.
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check"></i>Marcheurs
+                            et randonneurs, baladez-vous en Pays de Vitré.
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check"></i>
+                            Restaurez-vous sur place après l’effort.
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check"></i>Faites un
+                            don pour lutter contre la maladie.
+                        </li>
+                    </ul>
+
+                    <div className="container-btn">
+                        <NavLink to="/inscriptions">
+                            <button className="btn btn-1">
+                                <i class="fa-solid fa-file-pen"></i>{' '}
+                                Inscriptions
+                            </button>
+                        </NavLink>
+                        <a href="./assets/documents/tract2021Muco.pdf"
+                        target='_blank'
+                        download="tract2021Muco.pdf">
+                            <button className="btn btn-2">
+                            <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                                Faire un don
+                            </button>
+                        </a>
+                    </div>
+                    <em>*Pour faire un don, remplissez-le formulaire du flyer. Retourner-le nous le jour même du Trail Muco.</em>
                 </div>
             </section>
         </div>

@@ -3,7 +3,21 @@
     src: url(../assets/fonts/Lato-Regular.ttf);
   }
 
+@font-face {
+    font-family: "trail";
+    src: url(../assets/fonts/QuattrocentoSans-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "date";
+    src: url(../assets/fonts/PTSans-Regular.ttf);
+  }
+
 $font-1: "font-1", sans-serif;
+
+$font-2:"trail", sans-serif;
+
+$font-3:"date", sans-serif;
 
 $color-1: rgb(0,142,129);
 $color-2: rgb(238, 244, 238);
