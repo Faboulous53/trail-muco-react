@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import { NavLink } from 'react-router-dom';
+import Donation from '../components/Donation';
 
 const Home = () => {
     return (
@@ -41,7 +42,7 @@ const Home = () => {
                     </div>
                     <div className="why-trail-first">
                         <h2>
-                            <i class="fa-solid fa-house-medical-circle-check"></i>
+                            <i className="fa-solid fa-house-medical-circle-check"></i>
                             Vaincre la mucoviscidose.
                         </h2>
                         <p>
@@ -53,7 +54,7 @@ const Home = () => {
                     </div>
                     <div className="why-trail-center">
                         <h2>
-                            <i class="fa-solid fa-people-group"></i>Des
+                            <i className="fa-solid fa-people-group"></i>Des
                             partenaires pour une bonne cause.
                         </h2>
 
@@ -66,7 +67,7 @@ const Home = () => {
                     </div>
                     <div className="why-trail-last">
                         <h2>
-                            <i class="fa-solid fa-person-running"></i>Des
+                            <i className="fa-solid fa-person-running"></i>Des
                             coureurs et des marcheurs.
                         </h2>
 
@@ -99,19 +100,19 @@ const Home = () => {
                     <p>4 bonnes raisons de nous rejoindre</p>
                     <ul>
                         <li>
-                            <i class="fa-regular fa-circle-check"></i> Petits et
+                            <i className="fa-regular fa-circle-check"></i> Petits et
                             grands coureurs, venez tester votre nature.
                         </li>
                         <li>
-                            <i class="fa-regular fa-circle-check"></i>Marcheurs
+                            <i className="fa-regular fa-circle-check"></i>Marcheurs
                             et randonneurs, baladez-vous en Pays de Vitré.
                         </li>
                         <li>
-                            <i class="fa-regular fa-circle-check"></i>
+                            <i className="fa-regular fa-circle-check"></i>
                             Restaurez-vous sur place après l’effort.
                         </li>
                         <li>
-                            <i class="fa-regular fa-circle-check"></i>Faites un
+                            <i className="fa-regular fa-circle-check"></i>Faites un
                             don pour lutter contre la maladie.
                         </li>
                     </ul>
@@ -119,7 +120,7 @@ const Home = () => {
                     <div className="container-btn">
                         <NavLink to="/inscriptions">
                             <button className="btn btn-1">
-                                <i class="fa-solid fa-file-pen"></i>{' '}
+                                <i className="fa-solid fa-file-pen"></i>{' '}
                                 Inscriptions
                             </button>
                         </NavLink>
@@ -127,7 +128,7 @@ const Home = () => {
                         target='_blank'
                         download="tract2021Muco.pdf">
                             <button className="btn btn-2">
-                            <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                            <i className="fa-solid fa-circle-dollar-to-slot"></i>
                                 Faire un don
                             </button>
                         </a>
@@ -135,6 +136,9 @@ const Home = () => {
                     <em>*Pour faire un don, remplissez-le formulaire du flyer. Retourner-le nous le jour même du Trail Muco.</em>
                 </div>
             </section>
+            <Donation/>
+
+            
         </div>
     );
 };
