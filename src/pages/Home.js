@@ -2,6 +2,8 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import { NavLink } from 'react-router-dom';
 import Donation from '../components/Donation';
+import Sponsors from '../components/Sponsors';
+
 
 const Home = () => {
     return (
@@ -21,7 +23,7 @@ const Home = () => {
                         <button>Visiter le site officiel</button>
                     </a>
                 </div>
-            </header>
+            </header>            
             <section className="new-trail">
                 <img
                     src="./assets/img/imageSlider1-2.png"
@@ -31,7 +33,11 @@ const Home = () => {
                 <h3>6 et 7 octobre 2023</h3>
             </section>
             <section className="why-trail">
-                <div className="why-trail-left">
+                <div
+                    className="why-trail-left"
+                    data-aos="fade-right"
+                    data-aos-offset="300"                    
+                >
                     <div className="why-trail-header">
                         <h2 className="first-title">Trail muco</h2>
                         <h3>Pourquoi?</h3>
@@ -80,7 +86,7 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
-                <div className="why-trail-right">
+                <div className="why-trail-right" data-aos="fade-left">
                     <h2>Instant challenge!</h2>
                     <img
                         src="./assets/img/moveformuco.jpg"
@@ -89,31 +95,33 @@ const Home = () => {
                 </div>
             </section>
             <section className="why-trail">
-                <div className="content-register-left">
+                <div className="content-register-left" data-aos="fade-right">
                     <img
                         src="./assets/img/Benevolat.webp"
                         alt="muco bénévolat"
                     />
                 </div>
-                <div className="content-register-right">
+                <div className="content-register-right" data-aos="fade-left">
                     <h2>Qui veut participer?</h2>
                     <p>4 bonnes raisons de nous rejoindre</p>
                     <ul>
                         <li>
-                            <i className="fa-regular fa-circle-check"></i> Petits et
-                            grands coureurs, venez tester votre nature.
+                            <i className="fa-regular fa-circle-check"></i>{' '}
+                            Petits et grands coureurs, venez tester votre
+                            nature.
                         </li>
                         <li>
-                            <i className="fa-regular fa-circle-check"></i>Marcheurs
-                            et randonneurs, baladez-vous en Pays de Vitré.
+                            <i className="fa-regular fa-circle-check"></i>
+                            Marcheurs et randonneurs, baladez-vous en Pays de
+                            Vitré.
                         </li>
                         <li>
                             <i className="fa-regular fa-circle-check"></i>
                             Restaurez-vous sur place après l’effort.
                         </li>
                         <li>
-                            <i className="fa-regular fa-circle-check"></i>Faites un
-                            don pour lutter contre la maladie.
+                            <i className="fa-regular fa-circle-check"></i>Faites
+                            un don pour lutter contre la maladie.
                         </li>
                     </ul>
 
@@ -124,21 +132,25 @@ const Home = () => {
                                 Inscriptions
                             </button>
                         </NavLink>
-                        <a href="./assets/documents/tract2021Muco.pdf"
-                        target='_blank'
-                        download="tract2021Muco.pdf">
+                        <a
+                            href="./assets/documents/tract2021Muco.pdf"
+                            target="_blank"
+                            download="tract2021Muco.pdf"
+                        >
                             <button className="btn btn-2">
-                            <i className="fa-solid fa-circle-dollar-to-slot"></i>
+                                <i className="fa-solid fa-circle-dollar-to-slot"></i>
                                 Faire un don
                             </button>
                         </a>
                     </div>
-                    <em>*Pour faire un don, remplissez-le formulaire du flyer. Retourner-le nous le jour même du Trail Muco.</em>
+                    <em>
+                        *Pour faire un don, remplissez-le formulaire du flyer.
+                        Retourner-le nous le jour même du Trail Muco.
+                    </em>
                 </div>
             </section>
+            <Sponsors/>
             <Donation/>
-
-            
         </div>
     );
 };
