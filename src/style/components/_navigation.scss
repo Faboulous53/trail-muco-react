@@ -9,7 +9,12 @@
     display: flex;    
     justify-content: space-evenly;
     align-items: center;
-    background: white;      
+    background: white; 
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
 
     .responsive-menu span{
         display: none;

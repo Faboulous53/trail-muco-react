@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import { NavLink } from 'react-router-dom';
 import Sponsors from '../components/Sponsors';
 import Numbers from '../components/Numbers';
+import Footer from '../components/Footer';
 
 
 const Home = () => {
@@ -86,7 +87,7 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
-                <div className="why-trail-right" data-aos="fade-left">
+                <div className="why-trail-right" data-aos="fade-left" data-aos-offset="300" >
                     <h2>Instant challenge!</h2>
                     <img
                         src="./assets/img/moveformuco.jpg"
@@ -151,6 +152,7 @@ const Home = () => {
             </section>
             <Sponsors/>
             <Numbers/>
+            <Footer/>
         </div>
     );
 };
