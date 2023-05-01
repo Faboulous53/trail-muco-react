@@ -2,72 +2,86 @@ const sponsorsData = [
     {
         id: 1,
         name: "Cafpi",
-        img: "cafpiLogo.jpg"
+        img: "cafpiLogo.jpg",
+        link: "https://wwww."
     },
     {
         id: 2,
         name: "Damrys",
-        img: "damyrs.jpg"
+        img: "damyrs.jpg",
+        link: "https://wwww."
     },
     {
         id: 3,
         name: "Delanchy",
-        img: "delanchyLogo.jpg"
+        img: "delanchyLogo.jpg",
+        link: "https://wwww."
     },
     {
         id: 4,
         name: "Demy",
-        img: "demy.jpg"
+        img: "demy.jpg",
+        link: "https://wwww."
     },
     {
         id: 5,
         name: "Endurance Shop",
-        img: "endurance.jpg"
+        img: "endurance.jpg",
+        link: "https://wwww."
     },
     {
         id: 6,
         name: "Forge du Bignon",
-        img: "forge.jpg"
+        img: "forge.jpg",
+        link: "https://wwww."
     },
     {
         id: 7,
         name: "Groupama",
-        img: "groupamaLogo.jpg"
+        img: "groupamaLogo.jpg",
+        link: "https://wwww."
     },
     {
         id: 8,
         name: "Intermarché",
-        img: "intermarché.jpg"
+        img: "intermarché.jpg",
+        link: "https://wwww."
     },
     {
         id: 9,
         name: "Lafarge",
-        img: "lafarge.jpg"
+        img: "lafarge.jpg",
+        link: "https://www.lafarge.fr/"
     },
     {
         id: 10,
         name: "le Pape Voyages",
-        img: "lepape.jpg"
+        img: "lepape.jpg",
+        link: "https://wwww."
     },
     {
         id: 11,
         name: "Sojasun",
-        img: "logo-sojasun.jpg"
+        img: "logo-sojasun.jpg",
+        link: "https://wwww."
     },
     {
         id: 12,
         name: "Boutique clin d'oeil",
-        img: "loisel.jpg"
+        img: "loisel.jpg",
+        
     },
     {
         id: 13,
         name: "Planchais",
-        img: "planchais.jpg"
+        img: "planchais.jpg",
+        link: "https://wwww."
     },
     {
         id: 14,
         name: "LS décor",
-        img: "souef.jpg"
+        img: "souef.jpg",
+        link: "https://wwww."
     }
 ];
 

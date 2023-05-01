@@ -20,7 +20,7 @@ function Donation() {
 
     return (
         <div>
-         <p>{count+1}</p>  
+         <p className='count'>{count+1}</p>  
         </div>
     );
 };
