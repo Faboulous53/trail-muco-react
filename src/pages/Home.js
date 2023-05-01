@@ -1,8 +1,8 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import { NavLink } from 'react-router-dom';
-import Donation from '../components/Donation';
 import Sponsors from '../components/Sponsors';
+import Numbers from '../components/Numbers';
 
 
 const Home = () => {
@@ -150,7 +150,7 @@ const Home = () => {
                 </div>
             </section>
             <Sponsors/>
-            <Donation/>
+            <Numbers/>
         </div>
     );
 };

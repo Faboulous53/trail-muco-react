@@ -1,0 +1,121 @@
+.in-numbers-container {
+    width: 60%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background: rgba(161, 232, 209, 0.289);
+    padding: 4% 5%;
+    border-radius: 30px;
+    position: relative;
+
+    .in-number-left,
+    .in-number-center,
+    .in-number-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+        i {
+            font-size: 8vmin;
+            color: rgba(128, 128, 128, 0.461);
+        }
+
+        h4 {
+            font-family: $font-1;
+            font-size: 3rem;
+            font-weight: bolder;
+            color: $color-1;
+        }
+
+        p {
+            font-family: $font-1;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .in-numbers-container {
+        width: 80%;
+        .in-number-left,
+        .in-number-center,
+        .in-number-right {
+            i {
+                font-size: 9rem;
+                color: rgba(128, 128, 128, 0.461);
+            }
+
+            h4 {
+                font-family: $font-1;
+                font-size: 3rem;
+                font-weight: bolder;
+                color: $color-1;
+            }
+
+            p {
+                font-family: $font-1;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .in-numbers-container {
+        
+        .in-number-left,
+        .in-number-center,
+        .in-number-right {
+            i {
+                font-size: 3rem;
+                color: rgba(128, 128, 128, 0.461);
+            }
+
+            h4 {
+                font-family: $font-1;
+                font-size: 2rem;
+                font-weight: bolder;
+                color: $color-1;
+            }
+
+            p {
+                font-family: $font-1;
+                font-size: 1rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .in-numbers-container {
+        flex-direction: column;
+        gap: 3rem;
+        .in-number-left,
+        .in-number-center,
+        .in-number-right {
+            i {
+                font-size: 3rem;
+                color: rgba(128, 128, 128, 0.461);
+            }
+
+            h4 {
+                font-family: $font-1;
+                font-size: 2rem;
+                font-weight: bolder;
+                color: $color-1;
+            }
+
+            p {
+                font-family: $font-1;
+                font-size: 1rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
