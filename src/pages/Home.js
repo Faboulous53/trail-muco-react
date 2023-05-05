@@ -3,12 +3,12 @@ import Navigation from '../components/Navigation';
 import { NavLink } from 'react-router-dom';
 import Sponsors from '../components/Sponsors';
 import Numbers from '../components/Numbers';
-import Footer from '../components/Footer';
+
 
 
 const Home = () => {
     return (
-        <div>
+        <div className='first-container'>
             <Navigation />
             <header className="content-header">
                 <div className="site-off">
@@ -149,10 +149,11 @@ const Home = () => {
                         Retourner-le nous le jour même du Trail Muco.
                     </em>
                 </div>
+                
             </section>
+            
+            <Numbers/>            
             <Sponsors/>
-            <Numbers/>
-            <Footer/>
         </div>
     );
 };

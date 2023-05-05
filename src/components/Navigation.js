@@ -1,15 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     const [showLinks, setShowLinks] = useState(false);
+    const [scrollPosition, setScrollPosition] = useState(0);
+    let navbar = document.querySelectorAll('.navigation');
 
     const handlkeShowLinks = () => {
         setShowLinks(!showLinks);
-    }
+    }    
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (navbar && scrollPosition > window.scrollY) {
+                navbar.style.top = 0;
+              } else if (navbar) {
+                navbar.style.top = "-100px";
+              }
+              setScrollPosition(window.scrollY);
+            };
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, [scrollPosition, navbar]);
 
     return (
-       <div className="navigation">
+       <div className="navigation" ref={(el) => (navbar = el)}>
         <NavLink to="/">
         <div className="logo">
             <img src="./assets/img/logoTitrev3.png" alt="logo trail-muco Pays de Vitré"/>

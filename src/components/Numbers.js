@@ -20,7 +20,9 @@ function Numbers() {
                 <h4>824</h4>
                 <p>participants en 2022</p>
             </div>
+            
         </div>
+        
     );
 }
 

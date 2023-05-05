@@ -1,11 +1,13 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import Sponsors from '../components/Sponsors';
 
 const Inscriptions = () => {
     return (
         <div>
             <Navigation/>
-            <h2>Inscriptions</h2>
+            
+            <Sponsors/>
         </div>
     );
 };
