@@ -1,0 +1,20 @@
+.contact{    
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    p{
+        padding: 20px 0;
+        font-size: 2rem;
+    }
+
+
+    img{
+     max-width: 100%;
+     height: auto;
+       border-radius: 30px;
+    }   
+}

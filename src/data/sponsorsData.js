@@ -1,9 +1,9 @@
 const sponsorsData = [
     {
         id: 1,
-        name: "Cafpi",
-        img: "cafpiLogo.jpg",
-        link: "https://wwww."
+        name: "overstims",
+        img: "logo-overstims-nutrition-sportive-tonton-outdoor.jpg",
+        link: "https://www.overstims.com/"
     },
     {
         id: 2,
@@ -61,8 +61,8 @@ const sponsorsData = [
     },
     {
         id: 11,
-        name: "Sojasun",
-        img: "logo-sojasun.jpg",
+        name: "Groupe Pigeon",
+        img: "groupe-pigeon.jpg",
         link: "https://wwww."
     },
     {

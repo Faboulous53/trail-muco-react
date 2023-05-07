@@ -32,6 +32,12 @@
 
 @media screen and (max-width: 620px) {
     .container-sponsors img {
-        width: 150px;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container-sponsors img {
+        max-width: 80%;
     }
 }

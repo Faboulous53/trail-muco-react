@@ -61,8 +61,7 @@
     overflow: hidden;    
     position: relative;
 
-    img { 
-             
+    img {              
         width: 100%;               
         min-height: 60vh;
         object-fit: cover;
@@ -94,7 +93,7 @@
     }
 }
 
-.why-trail {
+.container-section {
     display: flex;
     gap: 5px;
     width: 80%;
@@ -104,7 +103,7 @@
     border-radius: 5px;
     font-family: $font-1;
     font-size: 1.2rem;
-    line-height: 2rem;
+    line-height: 2rem;    
 }
 
 .why-trail-left {
@@ -140,7 +139,7 @@
 
 .why-trail-right {
     width: 40%;
-    background-color: rgba(0, 142, 130, 0.217);
+    background-color: $color-3;
     border-radius: 10px;
     display: flex;
     flex-direction: column;

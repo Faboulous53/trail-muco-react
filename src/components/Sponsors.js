@@ -14,6 +14,9 @@ const Sponsors = () => {
     useEffect(() => {
         const handleResize = () => {
             switch (true) {
+                case window.innerWidth < 400:
+                    setWidthWindow(2);
+                    break;
                 case window.innerWidth < 800:
                     setWidthWindow(3);
                     break;

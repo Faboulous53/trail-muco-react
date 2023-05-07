@@ -1,27 +1,27 @@
 @font-face {
-    font-family: "font-1";
+    font-family: 'font-1';
     src: url(../assets/fonts/Lato-Regular.ttf);
-  }
+}
 
 @font-face {
-    font-family: "trail";
+    font-family: 'trail';
     src: url(../assets/fonts/QuattrocentoSans-Regular.ttf);
-  }
+}
 
-  @font-face {
-    font-family: "date";
+@font-face {
+    font-family: 'date';
     src: url(../assets/fonts/PTSans-Regular.ttf);
-  }
+}
 
-$font-1: "font-1", sans-serif;
+$font-1: 'font-1', sans-serif;
 
-$font-2:"trail", sans-serif;
+$font-2: 'trail', sans-serif;
 
-$font-3:"date", sans-serif;
+$font-3: 'date', sans-serif;
 
-$color-1: rgb(0,142,129);
+$color-1: rgb(0, 142, 129);
 $color-2: rgb(238, 244, 238);
-
+$color-3:rgba(0, 142, 130, 0.217);
 
 * {
     margin: 0;
@@ -30,24 +30,40 @@ $color-2: rgb(238, 244, 238);
     list-style-type: none;
     outline: none;
     border: none;
-    text-decoration: none;    
+    text-decoration: none; 
+      
 }
 
-html, body {
-  height: 100%;  
-  
+html , body {
+    overflow-x: hidden;
 }
 
-body{
-  overflow-x: hidden;
-  position: relative;
+body {
+    position: relative;
+    
 }
 
-.first-container{
-  position: relative;  
+.first-container {
+    padding-bottom: 50px;
 }
-
+a{
+    text-decoration: none;
+}
 
 a:visited {
-  color:black;
+    color: black;
+}
+
+.container-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    margin: 10rem auto 3rem;
+    padding: 5px 10px;
+    font-family: $font-3;
+    font-size: 1.6rem;
+    background: $color-1;
+    color: $color-2;
+    border-radius: 5px 30px;
 }

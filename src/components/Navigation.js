@@ -23,9 +23,22 @@ const Navigation = () => {
         window.addEventListener('scroll', handleScroll);
     
         return () => {
-          window.removeEventListener('scroll', handleScroll);
+          window.removeEventListener('scroll', handleScroll);         
         };
       }, [scrollPosition, navbar]);
+
+      useEffect(() => {
+        if (showLinks) {
+          const closeMenu = () => {
+            setShowLinks(false);
+          };
+          document.body.addEventListener("click", closeMenu);
+          return () => {
+            document.body.removeEventListener("click", closeMenu);
+          };
+        }
+      }, [showLinks]);
+      
 
     return (
        <div className="navigation" ref={(el) => (navbar = el)}>
@@ -35,8 +48,7 @@ const Navigation = () => {
         </div>
         </NavLink>
         <div className={`responsive-menu ${showLinks ? "show-nav" : ""}`} onClick={handlkeShowLinks}>
-            <span></span>
-            
+            <span></span>         
             
         </div>
 
