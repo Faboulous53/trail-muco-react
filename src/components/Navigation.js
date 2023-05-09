@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     const [showLinks, setShowLinks] = useState(false);
-    const [scrollPosition, setScrollPosition] = useState(0);
+    const [scrollPosition, setScrollPosition] = useState(1);
     let navbar = document.querySelectorAll('.navigation');
 
     const handlkeShowLinks = () => {
@@ -12,7 +12,7 @@ const Navigation = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (navbar && scrollPosition > window.scrollY) {
+            if (navbar && scrollPosition > window.scrollY && scrollPosition > 0) {
                 navbar.style.top = 0;
               } else if (navbar) {
                 navbar.style.top = "-100px";
@@ -73,6 +73,10 @@ const Navigation = () => {
             className={(nav) => (nav.isActive ? "nav-active" : "")}>
             <li>Contact</li>
             </NavLink>
+            <a href="https://www.facebook.com/TrailMucoDuPaysDeVitre/?locale=fr_FR" target='_blank' rel="noreferrer">
+            <i className="fa-brands fa-facebook"></i>
+            </a>
+            
         </ul>
        </div>
     );

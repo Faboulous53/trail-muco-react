@@ -12,14 +12,14 @@ const Inscriptions = () => {
             </div>
             <div className="container-section-program">
                 <div className="why-trail-left program">
-                    <p>Les inscriptions ne sont pas encore ouvertes pour l'édition 2023. <br />
-                    Comme d'habitude, les modalités d'inscriptions sont les suivantes:</p>
+                    <p>Les inscriptions ne sont pas encore ouvertes pour l'édition 2023.  Comme d'habitude, les modalités d'inscriptions sont les suivantes:</p>                    
                     <ul>
-                        <li>- Sur internet via le site klikego.</li>
+                        <li>- Sur internet via le site klikego (un lien sera disponible).</li>
                         <li>- Sur place (majoration de 2€).</li>
                         <li>- À l'aide du formulaire téléchargeable sur le site.</li>
                         <li>- Les inscriptions au repas uniquement via le formulaire.</li>
                     </ul>
+                                       
                     <img src="../assets/img/course1.jpg" alt="coureurs noctunes" />
                 </div>                
             </div>

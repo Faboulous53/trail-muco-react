@@ -1,12 +1,17 @@
-import React from 'react';
 import Navigation from '../components/Navigation';
 import { NavLink } from 'react-router-dom';
 import Sponsors from '../components/Sponsors';
 import Numbers from '../components/Numbers';
 
-const Home = () => {
+
+const Home = () => {   
     return (
         <div>
+            <div className="popup">
+                <strong>Nouveau site!!</strong>
+                <em>Bonne visite à vous!</em>
+                <button id="close-popup">ok</button>
+            </div>
             <Navigation />
             <header className="content-header">
                 <div className="site-off">

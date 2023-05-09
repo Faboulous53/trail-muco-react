@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="container-title">
                 <h2>Nous contacter</h2>
             </div>
-            <div className="container-section-program">
+            <div className="container-section-contact">
                 <div className="why-trail-left contact">
                     <p>
                         L'ensemble de l'équipe organisatrice est à votre
@@ -29,7 +29,7 @@ const Contact = () => {
                         place.
                     </em>
                 </div>
-                <div className="why-trail-right">
+                <div className="contact-right">
                     <img
                         src="../assets/img/assemblée.jpg"
                         alt="photos des organisateurs."
