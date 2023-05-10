@@ -6,12 +6,7 @@ import Numbers from '../components/Numbers';
 
 const Home = () => {   
     return (
-        <div>
-            <div className="popup">
-                <strong>Nouveau site!!</strong>
-                <em>Bonne visite à vous!</em>
-                <button id="close-popup">ok</button>
-            </div>
+        <div>            
             <Navigation />
             <header className="content-header">
                 <div className="site-off">

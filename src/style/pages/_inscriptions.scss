@@ -1,0 +1,58 @@
+.container-section-inscription{
+    display: flex;
+    gap: 10px;    
+    width: 80%;
+    margin: 0 auto 200px;
+    color: white;
+    border-radius: 5px;
+    font-family: $font-1;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    
+.inscription{     
+     font-weight: bold;
+     margin: 0 auto;
+     min-width: 80%;
+     letter-spacing: 2px; 
+
+     p{
+        font-size: 1.5rem;
+        text-align: center;
+     }
+     
+     ul{
+        width: 100%;
+        min-width: 40%;
+        margin: 20px auto;               
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        
+        li{
+            float: left ;
+        }
+     }   
+
+     img{        
+      display: block;
+      margin: 20px auto;
+      width: 100%;      
+      height: auto;
+      border-radius: 30px;
+     }  
+
+     
+    }
+    
+}
+
+@media screen and (max-width: 780px) {
+    .program{
+        ul{
+           width: 100%;
+           font-size: 1rem;
+        }
+    }
+}

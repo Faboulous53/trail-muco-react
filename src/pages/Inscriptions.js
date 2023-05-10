@@ -10,8 +10,8 @@ const Inscriptions = () => {
             <div className="container-title">
             <h2>Inscriptions</h2>
             </div>
-            <div className="container-section-program">
-                <div className="why-trail-left program">
+            <div className="container-section-inscription">
+                <div className="why-trail-left inscription">
                     <p>Les inscriptions ne sont pas encore ouvertes pour l'édition 2023.  Comme d'habitude, les modalités d'inscriptions sont les suivantes:</p>                    
                     <ul>
                         <li>- Sur internet via le site klikego (un lien sera disponible).</li>
