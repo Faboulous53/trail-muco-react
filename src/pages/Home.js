@@ -2,11 +2,13 @@ import Navigation from '../components/Navigation';
 import { NavLink } from 'react-router-dom';
 import Sponsors from '../components/Sponsors';
 import Numbers from '../components/Numbers';
+import Popup from '../components/Popup';
 
 
 const Home = () => {   
     return (
-        <div>            
+        <div>   
+            <Popup/>         
             <Navigation />
             <header className="content-header">
                 <div className="site-off">
@@ -158,12 +160,12 @@ const Home = () => {
                         <em>
                             *Pour faire un don, remplissez-le formulaire du
                             flyer. Retourner-le nous le jour même du Trail Muco.
-                        </em>
+                        </em>                        
                     </div>
                 </section>
-                <Numbers />
+                <Numbers/>
             </div>
-            <Sponsors />
+            <Sponsors/>
         </div>
     );
 };

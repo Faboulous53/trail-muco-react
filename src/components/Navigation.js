@@ -18,10 +18,8 @@ const Navigation = () => {
                 navbar.style.top = "-100px";
               }
               setScrollPosition(window.scrollY);
-            };
-    
-        window.addEventListener('scroll', handleScroll);
-    
+            };    
+        window.addEventListener('scroll', handleScroll);    
         return () => {
           window.removeEventListener('scroll', handleScroll);         
         };
@@ -75,8 +73,7 @@ const Navigation = () => {
             </NavLink>
             <a href="https://www.facebook.com/TrailMucoDuPaysDeVitre/?locale=fr_FR" target='_blank' rel="noreferrer">
             <i className="fa-brands fa-facebook"></i>
-            </a>
-            
+            </a>            
         </ul>
        </div>
     );
