@@ -19,6 +19,11 @@
         font-size: 1.5rem;
         text-align: center;
      }
+
+     .inscription-bloc{
+        display: flex;
+        margin: 20px 0;
+     }
      
      ul{
         width: 100%;
@@ -36,11 +41,11 @@
      }   
 
      img{        
-      display: block;
-      margin: 20px auto;
-      width: 100%;      
-      height: auto;
+      width: 100%;
+      overflow: hidden;
       border-radius: 30px;
+      border: 5px solid rgb(240, 240, 240);
+      box-shadow: 11px 15px 20px rgb(183, 192, 187);
      }  
 
      

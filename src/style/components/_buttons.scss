@@ -11,23 +11,13 @@
     &:hover{
         transform: scale(1.2);
     }
-}
 
-.btn1{
-    padding: 10px 20px;
-    border-radius: 30px;
-    color: $color-2;
-    background: $color-1;
-    font-family: $font-1;
-    font-weight: bold;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-
-    &:hover{
-        transform: scale(1.2);
+    i{
+        padding: 0 5px;
     }
 }
+
+
 
 .mail{
     margin: 0 auto;

@@ -16,7 +16,7 @@ const Contact = () => {
                         disposition.
                     </p>
                     <strong>
-                        Pour nous renseignement, inscription ou encore demande
+                        Pour tout renseignement, inscription ou encore demande
                         de sponsoring cliquez-sur le bouton si dessous afin
                         d'envoyer un e-mail, nous vous répondrons dès que
                         possible.

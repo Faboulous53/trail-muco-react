@@ -141,7 +141,7 @@ const Home = () => {
 
                         <div className="container-btn">
                             <NavLink to="/inscriptions">
-                                <button className="btn btn-1">
+                                <button className="btn">
                                     <i className="fa-solid fa-file-pen"></i>
                                     Inscriptions
                                 </button>
@@ -151,7 +151,7 @@ const Home = () => {
                                 target="_blank"
                                 download="tract2021Muco.pdf"
                             >
-                                <button className="btn btn-2">
+                                <button className="btn">
                                     <i className="fa-solid fa-circle-dollar-to-slot"></i>
                                     Faire un don
                                 </button>

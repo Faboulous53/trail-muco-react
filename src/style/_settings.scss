@@ -22,6 +22,7 @@ $font-3: 'date', sans-serif;
 $color-1: rgb(0, 142, 129);
 $color-2: rgb(238, 244, 238);
 $color-3:rgba(0, 142, 130, 0.217);
+$orange:rgb(224,148,2);
 
 * {
     margin: 0;
@@ -31,6 +32,7 @@ $color-3:rgba(0, 142, 130, 0.217);
     outline: none;
     border: none;
     text-decoration: none; 
+    
       
 }
 
@@ -57,8 +59,8 @@ a:visited {
 .container-title{
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 270px;
+    align-items: center;    
+    width: 275px;
     margin: 10rem auto 3rem;
     padding: 5px 10px;
     font-family: $font-3;
@@ -66,5 +68,15 @@ a:visited {
     background: $color-1;
     color: $color-2;
     border-radius: 5px 30px;
+    border: 3px solid white;
+    animation: animTitle 10s ease-in-out infinite;
+}
+
+@keyframes animTitle {
+    50%{
+        background: $color-2;
+        color: $color-1;
+        border: 3px solid $color-1;
+    }
 }
 
