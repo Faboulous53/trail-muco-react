@@ -13,7 +13,7 @@ const Home = () => {
             <header className="content-header">
                 <div className="site-off">
                     <img
-                        src="./assets/img/vaincre-la-mucoviscidose.png"
+                        src="./assets/img/VLM-LOGO.png"
                         alt="logo-vaincre-ma-mucovisidose"
                     />
                     <a
