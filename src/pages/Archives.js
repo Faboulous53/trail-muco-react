@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Sponsors from '../components/Sponsors';
+import Footer from '../components/Footer';
 
 const Archives = () => {
     return (
@@ -38,7 +39,7 @@ const Archives = () => {
                     <div class="shadow"></div>
                    <div className="end"></div>
                 </div>
-
+                <Footer/>
                 <Sponsors />
             </div>
         </div>

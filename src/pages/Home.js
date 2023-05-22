@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import Sponsors from '../components/Sponsors';
 import Numbers from '../components/Numbers';
 import Popup from '../components/Popup';
+import Footer from '../components/Footer';
 
 
 const Home = () => {   
@@ -164,7 +165,9 @@ const Home = () => {
                     </div>
                 </section>
                 <Numbers/>
+                
             </div>
+            <Footer/>
             <Sponsors/>
         </div>
     );

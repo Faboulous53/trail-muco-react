@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="footer">
-            <div className="footer-left">
+        <div className="header-footer">
+            <div className="header-footer-center">
                 <p>
                     © COPYRIGHT TRAIL MUCO - PAYS DE VITRÉ. TOUS DROITS
                     RÉSERVÉS.
@@ -18,17 +18,7 @@ const Footer = () => {
                         Delpierre Fabien
                     </a>
                 </p>
-            </div>
-            <div className="footer-right">
-                <p>Retrouvez nous sur</p>
-                <a
-                        href="https://www.facebook.com/TrailMucoDuPaysDeVitre/?locale=fr_FR"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <i className="fa-brands fa-facebook"></i>
-                    </a>
-            </div>
+            </div>           
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Sponsors from '../components/Sponsors';
+import Footer from '../components/Footer';
 
 const Inscriptions = () => {
     return (
@@ -14,7 +15,7 @@ const Inscriptions = () => {
                     <div className="why-trail-left inscription">
                         <p>
                             Les inscriptions ne sont pas encore ouvertes pour
-                            l'édition 2023. Comme d'habitude, les modalités
+                            l'édition 2023.<br/><br/> Comme d'habitude, les modalités
                             d'inscriptions sont les suivantes:
                         </p>
                         <div className="inscription-bloc">
@@ -41,7 +42,7 @@ const Inscriptions = () => {
                         </div>
                     </div>
                 </div>
-
+                <Footer/>
                 <Sponsors />
             </div>
         </div>

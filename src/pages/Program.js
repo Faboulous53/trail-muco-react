@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Sponsors from '../components/Sponsors';
+import Footer from '../components/Footer';
 
 const Program = () => {
     return (
@@ -41,8 +42,24 @@ const Program = () => {
                             <i className="fa-solid fa-flag-checkered last"></i>
                         </em>
                         <ul className="nocturne-list">
-                            <li className="custom-li">12 km (10€)</li>
-                            <li className="custom-li">5 km (8€) </li>
+                            <li className="custom-li">
+                                12 km (10€)
+                                <a 
+                                href="../assets/img/parcours/TRAIL_MUCO_GRAND_CAPTAMBULE_12KM_page-0001.jpg"
+                                target='_blank'
+                                download='TRAIL_MUCO_GRAND_CAPTAMBULE_12KM_page-0001.jpg'>
+                                    <button className='btn-race'>Télécharger le tracé</button>
+                                </a>
+                            </li>
+                            <li className="custom-li">
+                                5 km (8€) 
+                                <a 
+                                href="../assets/img/parcours/TRAIL_MUCO_PETIT_CAPTAMBULE_5KM_page-0001.jpg"
+                                target='_blank'
+                                download='TRAIL_MUCO_PETIT_CAPTAMBULE_5KM_page-0001.jpg'>
+                                    <button className='btn-race'>Télécharger le tracé</button>
+                                </a>
+                                </li>
                         </ul>
                         <em>
                             * Certificat médical obligatoire ainsi qu'une lampe
@@ -83,6 +100,12 @@ const Program = () => {
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Challenge Nordique Bretagne{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
+                                <a 
+                                href="../assets/img/parcours/MARCHE_NORDIQUE_CHRONOMETREE_16KM_page-0001.jpg"
+                                target='_blank'
+                                download='MARCHE_NORDIQUE_CHRONOMETREE_16KM_page-0001.jpg'>
+                                    <button className='btn-race'>Télécharger le tracé</button>
+                                </a>
                             </li>
                             <li className="custom-li">5km libre (10€)</li>
                         </ul>
@@ -188,6 +211,12 @@ const Program = () => {
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 13h30{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
+                                <a 
+                                href="../assets/img/parcours/TRAIL_MUCO_29KM_page-0001.jpg"
+                                target='_blank'
+                                download='TRAIL_MUCO_29KM_page-0001.jpg'>
+                                    <button className='btn-race'>Télécharger le tracé</button>
+                                </a>
                             </li>
                             <li className="custom-li">
                                 22km (prix à définir)
@@ -195,13 +224,25 @@ const Program = () => {
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 14h00{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
+                                <a 
+                                href="../assets/img/parcours/TRAIL_MUCO_22KM_page-0001.jpg"
+                                target='_blank'
+                                download='TRAIL_MUCO_22KM_page-0001.jpg'>
+                                    <button className='btn-race'>Télécharger le tracé</button>
+                                </a>
                             </li>
                             <li className="custom-li">
-                                La Pigeon-Trail 10km-(12€)
+                                La Pigeon-Trail 10km (12€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 15h00{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
+                                <a 
+                                href="../assets/img/parcours/TRAIL_MUCO_10KM_page-0001.jpg"
+                                target='_blank'
+                                download='TRAIL_MUCO_10KM_page-0001.jpg'>
+                                    <button className='btn-race'>Télécharger le tracé</button>
+                                </a>
                             </li>
                         </ul>
                         <em>* Certificat médical obligatoire.</em>
@@ -247,7 +288,7 @@ const Program = () => {
                         <em>* Prévoir vos gourdes.</em>
                     </div>
                 </section>
-                <section className="container-section program">
+                <section className="container-section program end">
                     <div
                         className="children-left"
                         data-aos="fade-right"
@@ -285,8 +326,9 @@ const Program = () => {
                         </em>
                     </div>
                 </section>
+                
             </div>
-
+            <Footer/>
             <Sponsors />
         </div>
     );

@@ -18,7 +18,6 @@
 }
 
 
-
 .mail{
     margin: 0 auto;
     width: 250px;
@@ -29,5 +28,27 @@
         color: white;
         border: 2px solid white;
     }
+}
+
+.btn-race{
+    display: block;
+    margin: 10px auto;
+    background: $color-1;
+    font-family: $font-3;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: 0.3s ease-in-out;
+
+    &:hover{
+        background: $color-2;
+        color: $color-1;
+        border: 2px solid $color-1;
+    }
+    
 }
 

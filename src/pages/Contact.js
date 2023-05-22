@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Sponsors from '../components/Sponsors';
+import Footer from '../components/Footer';
 
 const Contact = () => {
     return (
@@ -36,6 +37,7 @@ const Contact = () => {
                     />
                 </div>
             </div>
+            <Footer/>
             <Sponsors />
         </div>
     );

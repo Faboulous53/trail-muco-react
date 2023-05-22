@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 5px;   
-    width: 80%;
-    margin: 0 auto 200px;
+    width: 70%;
+    margin: 0 auto 350px;
     color: white;
     border-radius: 5px;
     
@@ -16,6 +16,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 50px;
         font-family: $font-1;
         font-size: 1.2rem;
@@ -46,8 +47,17 @@
 }
 
 @media screen and (max-width: 1400px) {
-    .container-section-contact{        
+    .container-section-contact{
+       width: 90%;         
        display: flex;
        flex-direction: column;
 }
 }
+
+@media screen and (max-width: 300px) {    
+    .container-section-contact{
+        width: 98%;
+    }
+    }
+
+    

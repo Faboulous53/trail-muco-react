@@ -1,63 +1,72 @@
-.container-section-inscription{
+.container-section-inscription {
     display: flex;
-    gap: 10px;    
-    width: 80%;
-    margin: 0 auto 200px;
+    gap: 10px;
+    width: 70%;
+    margin: 0 auto 350px;
     color: white;
     border-radius: 5px;
     font-family: $font-1;
     font-size: 1.2rem;
     line-height: 2rem;
-    
-.inscription{     
-     font-weight: bold;
-     margin: 0 auto;
-     min-width: 80%;
-     letter-spacing: 2px; 
 
-     p{
-        font-size: 1.5rem;
-        text-align: center;
-     }
+    .inscription {
+        font-weight: bold;
+        margin: 0 auto;
+        min-width: 100%;
+        letter-spacing: 2px;
 
-     .inscription-bloc{
-        display: flex;
-        margin: 20px 0;
-     }
-     
-     ul{
-        width: 100%;
-        min-width: 40%;
-        margin: 20px auto;               
-        display: flex;
-        flex-direction: column; 
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        
-        li{
-            float: left ;
+        p {
+            font-size: 1.5rem;
+            text-align: center;
         }
-     }   
 
-     img{        
-      width: 100%;
-      overflow: hidden;
-      border-radius: 30px;
-      border: 5px solid rgb(240, 240, 240);
-      box-shadow: 11px 15px 20px rgb(183, 192, 187);
-     }  
+        .inscription-bloc {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
 
-     
+        ul {
+            width: 100%;
+            min-width: 40%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            li {
+                float: left;
+                margin: 20px 0;
+                font-size: 1.8rem;
+            }
+        }
+
+        img {
+            width: 90%;
+            height: auto;
+            overflow: hidden;
+            border-radius: 30px;
+            border: 5px solid rgb(240, 240, 240);
+            box-shadow: 11px 15px 20px rgb(183, 192, 187);
+        }
     }
-    
 }
 
-@media screen and (max-width: 780px) {
-    .program{
-        ul{
-           width: 100%;
-           font-size: 1rem;
-        }
+@media screen and (max-width: 1300px) {
+    .container-section-inscription {
+        width: 90%;
+    }
+
+    .inscription-bloc {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .container-section-inscription {
+        width: 100%;
     }
 }
