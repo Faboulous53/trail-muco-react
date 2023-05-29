@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <div>
             <Navigation />
-            <div className="container-title">
+            <div className="container-title long-title">
                 <h2>Nous contacter</h2>
             </div>
             <div className="container-section-contact">

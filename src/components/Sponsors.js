@@ -40,7 +40,7 @@ const Sponsors = () => {
     const handleSlideMoved = () => {
         const index = splideRef.current.splide.index;
         localStorage.setItem('currentIndex', JSON.stringify(index));
-        setActualSlide(JSON.parse(localStorage.getItem('currentIndex')));
+        setActualSlide(JSON.parse(localStorage.getItem('currentIndex')));       
     };
 
     return (
