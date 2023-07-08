@@ -13,36 +13,43 @@ const Inscriptions = () => {
                 </div>
                 <div className="container-section-inscription">
                     <div className="why-trail-left inscription">
-                        <p>
-                            Les inscriptions ne sont pas encore ouvertes pour
-                            l'édition 2023.<br/><br/> Comme d'habitude, les modalités
-                            d'inscriptions sont les suivantes:
-                        </p>
+                        <h3>Les inscriptions sont actuellement ouvertes.</h3>
                         <div className="inscription-bloc">
-                            <ul>
-                                <li>
-                                    - Sur internet via le site klikego (un lien
-                                    sera disponible).
-                                </li>
-                                <li>- Sur place (majoration de 2€).</li>
-                                <li>
-                                    - À l'aide du formulaire téléchargeable sur
-                                    le site.
-                                </li>
-                                <li>
-                                    - Les inscriptions au repas uniquement via
-                                    le formulaire.
-                                </li>
-                            </ul>
-
-                            <img
-                                src="../assets/img/course1.jpg"
-                                alt="coureurs noctunes"
-                            />
+                            <div className="containers-inscription">
+                                <h4>Via Internet:</h4>
+                                <p>
+                                    Cliquez sur le logo de notre partenaire
+                                    Klikego ci-dessous:
+                                </p>
+                                <a
+                                    href="https://www.klikego.com/inscription/trail-muco-pays-de-vitre-17eme-edition-base-de-loisir-de-haute-vilaine-st-mherve--la-chapelle-erbree-2023/running-marche-nordique/1432099242027-8"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <img
+                                        src="../assets/img/logoKlikego.png"
+                                        alt="logo-klikego"
+                                    />
+                                </a>
+                                <em>
+                                    * Attention, l'inscription nécessite la
+                                    création d'un compte sur Klikego.{' '}
+                                </em>
+                            </div>
+                            <div className="inscription-bloc">
+                                <div className="containers-inscription">
+                                    <h4>Sur place:</h4>
+                                    <p className='text'>Pour des questions d'organisation, les inscriptions sur place sont possibles mais déconseillées.</p>
+                                    <p className='majoration'> Celles-ci entrainent une majoration de 2€ supplémentaire.</p>
+                                    
+                                </div>
+                            </div>
+                            <em>* Les inscriptions pour les randonnées et les courses enfants sont possible uniquement sur place.<br /> 
+                             Par conséquent, uniquement pour ces courses, aucune majoration ne sera appliquée.</em>
                         </div>
                     </div>
                 </div>
-                <Footer/>
+                <Footer />
                 <Sponsors />
             </div>
         </div>

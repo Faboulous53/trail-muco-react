@@ -18,9 +18,9 @@ const Popup = () => {
                 setVisiblePopup(false);
             }
         };
-        if (!visiblePopup) {   
-            validPopup.style.transition = 'none';         
-            popup.style.visibility = 'hidden';            
+        if (!visiblePopup) {
+            validPopup.style.transition = 'none';
+            popup.style.visibility = 'hidden';
         }
         validPopup.addEventListener('click', deletePopup);
 
@@ -38,9 +38,13 @@ const Popup = () => {
                     <br />
                     En cours de développement.
                 </p>
+                <p>Mise à jour du 08/07/2023</p>
                 <p>Bonne visite!</p>
                 <button id="validPopup">Ok</button>
-                <img src="../assets/img/trail_muco_pays_de_vitré-removebg-preview.png" alt="logo trail muco pays de vitré" />
+                <img
+                    src="../assets/img/trail_muco_pays_de_vitré-removebg-preview.png"
+                    alt="logo trail muco pays de vitré"
+                />
             </div>
         </div>
     );

@@ -56,7 +56,7 @@ const sponsorsData = [
     {
         id: 10,
         name: 'le Pape Voyages',
-        img: 'lepape.jpg',
+        img: 'rgo-mobilité-proposition.jpg',
         link: 'https://www.le-pape-autocars.com/',
     },
     {
@@ -100,6 +100,12 @@ const sponsorsData = [
         name: 'Chocolat le Derf',
         img: 'chocolat-le-derf.jpg',
         link: 'https://www.brunolederf.fr/',
+    },
+    {
+        id: 18,
+        name: 'Armor Lux',
+        img: 'armorlux.jpg',
+        link: 'https://www.armorlux.fr/',
     },
 ];
 

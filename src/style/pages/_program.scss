@@ -1,6 +1,6 @@
 .section-program {
     width: 90%;
-    margin: 0 auto 200px;    
+    margin: 0 auto 200px;
 
     .header-program {
         text-align: center;
@@ -23,9 +23,14 @@
         align-items: center;
         .children-left {
             width: 100%;
+            box-sizing: border-box;
+            box-shadow: -17px 10px 5px rgba(148, 150, 150, 0.301);
+            border-radius: 10px;
+            line-height: 0;
+
             .children-picture {
                 width: 100%;
-                height: auto;
+                height: 100%;
                 border-radius: 10px;
             }
         }
@@ -44,9 +49,9 @@
             width: 100%;
             background: $color-1;
             border-radius: 10px;
+            box-shadow: 14px 14px 5px rgba(0, 142, 130, 0.301);
 
             .nocturne-list {
-                margin: 10% auto;
                 text-align: center;
 
                 li {
@@ -68,14 +73,37 @@
                 margin: 5% 0;
 
                 li {
-                    max-width: 80%;
+                    width: 80%;
                     margin: 10px auto;
                     background: $color-2;
                     color: $color-1;
                     border-radius: 10px;
                     font-weight: bold;
-                    font-size: 1.4rem;
                     padding: 10px;
+                }
+            }
+            .warning {
+                margin: 20px 20%;
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+                background: white;
+                color: red;
+                border-radius: 20px;
+                animation: animWarning 4s ease-in-out infinite;
+
+                .wild {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                }
+            }
+
+            @keyframes animWarning {
+                50% {
+                    background: rgba(243, 71, 71, 0.923);
+                    color: white;
                 }
             }
         }
@@ -94,7 +122,7 @@
         }
     }
 
-    .end{
+    .end {
         margin-bottom: 350px;
     }
 }
@@ -102,23 +130,27 @@
     .children-right {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         padding: 5px;
+        font-size: 1rem;
 
-        ul > li.custom-li {
-            font-size: 1.2rem;
+        .nordique span {
+            font-size: 0.9rem;
+        }
+    }
+
+    .program {
+        .warning {
+            padding: 20px 10px;
+            line-height: 1.2rem;
         }
     }
 }
 
-@media screen and (max-width: 300px) {    
-    .section-program{
-        width: 100%;
-        .children-right > ul > li.custom-li {
-            font-size: 1rem;
+@media screen and (max-width: 300px) {
+    .children-right {
+        .nordique span {
+            font-size: 0.65rem;
         }
     }
-
-    }
-    
+}

@@ -148,9 +148,9 @@ const Home = () => {
                                 </button>
                             </NavLink>
                             <a
-                                href="./assets/documents/tract2021Muco.pdf"
+                                href="./assets/documents/Dépliant-TM-2023.pdf"
                                 target="_blank"
-                                download="tract2021Muco.pdf"
+                                download="Dépliant-TM-2023.pdf"
                             >
                                 <button className="btn">
                                     <i className="fa-solid fa-circle-dollar-to-slot"></i>

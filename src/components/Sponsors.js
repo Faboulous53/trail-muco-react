@@ -40,7 +40,7 @@ const Sponsors = () => {
     const handleSlideMoved = () => {
         const index = splideRef.current.splide.index;
         localStorage.setItem('currentIndex', JSON.stringify(index));
-        setActualSlide(JSON.parse(localStorage.getItem('currentIndex')));       
+        setActualSlide(JSON.parse(localStorage.getItem('currentIndex')));
     };
 
     return (
@@ -49,12 +49,14 @@ const Sponsors = () => {
                 <Splide
                     aria-label="My Favorite Images"
                     options={{
+                        type: 'loop',
                         perPage: `${widthWindow}`,
+                        perMove: 1,
                         gap: '5px',
                         autoplay: true,
-                        interval: 3000,
-                        rewind: true,
+                        interval: 1000,
                         arrows: false,
+                        rewind: false,
                         start: `${actualSlide !== undefined ? actualSlide : 0}`,
                     }}
                     onMoved={handleSlideMoved}
