@@ -62,7 +62,7 @@ function Numbers() {
                         }}
                     ></CountUp>
                 ) : (
-                    <span>299191€</span>
+                    <span>299 191€</span>
                 )}
                 <p>reversés à la muco</p>
             </div>

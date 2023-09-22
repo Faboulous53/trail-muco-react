@@ -12,7 +12,7 @@ const Program = () => {
             </div>
             <div className="first-container header-program">
                 <h2>Retrouvez ici les parcours prévus pour l'édition 2023</h2>
-                <h3> Vendredi 7 octobre 2023 </h3>
+                <h3> Vendredi 6 octobre 2023 </h3>
 
                 <section className="container-section program nocturne">
                     <div className="children-left">
@@ -62,16 +62,11 @@ const Program = () => {
                         <em>* Certificat médical obligatoire.</em>
                         <div className="warning">
                             <div className="wild">
-                                <i class="fa-solid fa-triangle-exclamation custom"></i>
-                                <p>Protégeons la nature</p>
-                                <i class="fa-solid fa-triangle-exclamation custom"></i>
+                                <i className="fa-solid fa-triangle-exclamation custom"></i>
+                                <p>Pas de gobelets aux ravitaillements</p>
+                                <i className="fa-solid fa-triangle-exclamation custom"></i>
                             </div>
-                            <div className="instructions">
-                                <p>
-                                    Gobelets interdits!
-                                    <br /> Prévoir une gourde ou éco-tasse.
-                                </p>
-                            </div>
+                            <p>Prévoir vos écotasses.</p>
                         </div>
                     </div>
                 </section>
@@ -124,16 +119,11 @@ const Program = () => {
                         </ul>
                         <div className="warning">
                             <div className="wild">
-                                <i class="fa-solid fa-triangle-exclamation custom"></i>
-                                <p>Protégeons la nature</p>
-                                <i class="fa-solid fa-triangle-exclamation custom"></i>
+                                <i className="fa-solid fa-triangle-exclamation custom"></i>
+                                <p>Pas de gobelets aux ravitaillements</p>
+                                <i className="fa-solid fa-triangle-exclamation custom"></i>
                             </div>
-                            <div className="instructions">
-                                <p>
-                                    Gobelets interdits!
-                                    <br /> Prévoir une gourde ou éco-tasse.
-                                </p>
-                            </div>
+                            <p>Prévoir vos écotasses.</p>
                         </div>
                         <em>
                             * Licence FFA ou FSCF ou certificat médical
@@ -201,16 +191,11 @@ const Program = () => {
                         </a>
                         <div className="warning">
                             <div className="wild">
-                                <i class="fa-solid fa-triangle-exclamation custom"></i>
-                                <p>Protégeons la nature</p>
-                                <i class="fa-solid fa-triangle-exclamation custom"></i>
+                                <i className="fa-solid fa-triangle-exclamation custom"></i>
+                                <p>Pas de gobelets aux ravitaillements</p>
+                                <i className="fa-solid fa-triangle-exclamation custom"></i>
                             </div>
-                            <div className="instructions">
-                                <p>
-                                    Gobelets interdits!
-                                    <br /> Prévoir une gourde ou éco-tasse.
-                                </p>
-                            </div>
+                            <p>Prévoir vos écotasses.</p>
                         </div>
                         <em>*Attestation d'accord parental obligatoire. </em>
                     </div>
@@ -256,7 +241,7 @@ const Program = () => {
                                 </a>
                             </li>
                             <li className="custom-li">
-                                22km (prix à définir)
+                                22km (12 €)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 14h00{' '}
@@ -291,15 +276,10 @@ const Program = () => {
                         <div className="warning">
                             <div className="wild">
                                 <i class="fa-solid fa-triangle-exclamation custom"></i>
-                                <p>Protégeons la nature</p>
+                                <p>Pas de gobelets aux ravitaillements</p>
                                 <i class="fa-solid fa-triangle-exclamation custom"></i>
                             </div>
-                            <div className="instructions">
-                                <p>
-                                    Gobelets interdits!
-                                    <br /> Prévoir une gourde ou éco-tasse.
-                                </p>
-                            </div>
+                            <p>Prévoir vos écotasses.</p>
                         </div>
                         <em>* Certificat médical obligatoire.</em>
                     </div>
@@ -329,13 +309,14 @@ const Program = () => {
 
                         <ul className="nocturne-list">
                             <li className="custom-li">
-                                12km - L'OTSI <br />
+                                12km - L'OTSI (6€)
+                                <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ: 13h35{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
                             <li className="custom-li">
-                                9km - La Vitré Accueil <br />
+                                9km - La Vitré Accueil (6€) <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ: 14h15{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
@@ -344,15 +325,10 @@ const Program = () => {
                         <div className="warning">
                             <div className="wild">
                                 <i class="fa-solid fa-triangle-exclamation custom"></i>
-                                <p>Protégeons la nature</p>
+                                <p>Pas de gobelets aux ravitaillements</p>
                                 <i class="fa-solid fa-triangle-exclamation custom"></i>
                             </div>
-                            <div className="instructions">
-                                <p>
-                                    Gobelets interdits!
-                                    <br /> Prévoir une gourde ou éco-tasse.
-                                </p>
-                            </div>
+                            <p>Prévoir vos écotasses.</p>
                         </div>
                         <em>* Inscriptions uniquement sur place.</em>
                     </div>
@@ -385,7 +361,11 @@ const Program = () => {
                                 34km (18€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Départ: à définir{' '}
+                                Vendredi 6 octobre à 20h (Cap'Tambule).
+                                <i className="fa-solid fa-flag-checkered last"></i>
+                                <br />
+                                <i className="fa-solid fa-flag-checkered first"></i>{' '}
+                                Samedi 7 octobre à 14h (Trail 22km)
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
                         </ul>
@@ -396,15 +376,10 @@ const Program = () => {
                         <div className="warning">
                             <div className="wild">
                                 <i class="fa-solid fa-triangle-exclamation custom"></i>
-                                <p>Protégeons la nature</p>
+                                <p>Pas de gobelets aux ravitaillements</p>
                                 <i class="fa-solid fa-triangle-exclamation custom"></i>
                             </div>
-                            <div className="instructions">
-                                <p>
-                                    Gobelets interdits!
-                                    <br /> Prévoir une gourde ou éco-tasse.
-                                </p>
-                            </div>
+                            <p>Prévoir vos écotasses.</p>
                         </div>
                     </div>
                 </section>

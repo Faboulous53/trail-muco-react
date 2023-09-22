@@ -18,7 +18,7 @@ const Contact = () => {
                     </p>
                     <strong>
                         Pour tout renseignement, inscription ou encore demande
-                        de sponsoring cliquez-sur le bouton si dessous afin
+                        de sponsoring cliquez sur le bouton ci-dessous afin
                         d'envoyer un e-mail, nous vous répondrons dès que
                         possible.
                     </strong>
@@ -37,7 +37,7 @@ const Contact = () => {
                     />
                 </div>
             </div>
-            <Footer/>
+            <Footer />
             <Sponsors />
         </div>
     );

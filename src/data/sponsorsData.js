@@ -103,9 +103,27 @@ const sponsorsData = [
     },
     {
         id: 18,
+        name: 'St Michel',
+        img: 'st-michel.jpg',
+        link: 'https://www.stmichel.fr/',
+    },
+    {
+        id: 19,
         name: 'Armor Lux',
         img: 'armorlux.jpg',
-        link: 'https://www.armorlux.fr/',
+        link: 'https://www.armorlux.fr',
+    },
+    {
+        id: 20,
+        name: "Grillon d'or",
+        img: "grillon-d'or.jpg",
+        link: 'https://www.grillondor.bio/',
+    },
+    {
+        id: 21,
+        name: 'Maison Hermine',
+        img: 'maison-hermine.jpg',
+        link: 'https://www.maisonhermine.fr/',
     },
 ];
 

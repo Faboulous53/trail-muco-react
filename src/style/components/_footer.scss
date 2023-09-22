@@ -1,4 +1,4 @@
-.header-footer{
+.header-footer {
     width: 100%;
     position: absolute;
     bottom: 130px;
@@ -15,33 +15,32 @@
     font-size: 1.2rem;
     text-align: center;
 
-    .header-footer-center{
+    .header-footer-center {
         line-height: 2rem;
 
-        a{
-        color: $color-2;
-        transition: 0.3s ease-in-out;
+        a {
+            color: $color-2 ;
+            transition: 0.3s ease-in-out;
 
-        &:hover{
-            background: $color-2;
-            padding: 5px 10px;
-            border-radius: 10px;
-            color: $color-1;
+            &:hover {
+                background: $color-2;
+                padding: 5px 10px;
+                border-radius: 10px;
+                color: $color-1;
+            }
         }
-        }
-    }       
+    }
 }
 
-@media screen and (max-width: 500px){
-    .header-footer{
+@media screen and (max-width: 500px) {
+    .header-footer {
         font-size: 0.8rem;
     }
 }
 
-@media screen and (max-width: 500px){
-    .header-footer{
+@media screen and (max-width: 500px) {
+    .header-footer {
         padding: 10px 10px;
         font-size: 0.8rem;
     }
 }
-

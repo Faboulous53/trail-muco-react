@@ -39,13 +39,26 @@ const Inscriptions = () => {
                             <div className="inscription-bloc">
                                 <div className="containers-inscription">
                                     <h4>Sur place:</h4>
-                                    <p className='text'>Pour des questions d'organisation, les inscriptions sur place sont possibles mais déconseillées.</p>
-                                    <p className='majoration'> Celles-ci entrainent une majoration de 2€ supplémentaire.</p>
-                                    
+                                    <p className="text">
+                                        Pour des questions d'organisation, les
+                                        inscriptions sur place sont possibles
+                                        mais déconseillées.
+                                    </p>
+                                    <p className="majoration">
+                                        {' '}
+                                        Celles-ci entrainent une majoration de
+                                        2€ supplémentaires.
+                                    </p>
                                 </div>
                             </div>
-                            <em>* Les inscriptions pour les randonnées et les courses enfants sont possible uniquement sur place.<br /> 
-                             Par conséquent, uniquement pour ces courses, aucune majoration ne sera appliquée.</em>
+                            <em>
+                                * Les inscriptions pour les randonnées et les
+                                courses enfants sont possibles uniquement sur
+                                place.
+                                <br />
+                                Par conséquent, uniquement pour ces courses,
+                                aucune majoration ne sera appliquée.
+                            </em>
                         </div>
                     </div>
                 </div>

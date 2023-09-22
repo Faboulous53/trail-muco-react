@@ -2,14 +2,11 @@ import Navigation from '../components/Navigation';
 import { NavLink } from 'react-router-dom';
 import Sponsors from '../components/Sponsors';
 import Numbers from '../components/Numbers';
-import Popup from '../components/Popup';
 import Footer from '../components/Footer';
 
-
-const Home = () => {   
+const Home = () => {
     return (
-        <div>   
-            <Popup/>         
+        <div>
             <Navigation />
             <header className="content-header">
                 <div className="site-off">
@@ -94,9 +91,9 @@ const Home = () => {
                         data-aos="fade-left"
                         data-aos-offset="300"
                     >
-                        <h2>Instant challenge!</h2>
+                        <h2>Actualité</h2>
                         <img
-                            src="./assets/img/moveformuco.jpg"
+                            src="./assets/img/message.jpg"
                             alt="move for muco"
                         />
                     </div>
@@ -161,14 +158,13 @@ const Home = () => {
                         <em>
                             *Pour faire un don, remplissez-le formulaire du
                             flyer. Retourner-le nous le jour même du Trail Muco.
-                        </em>                        
+                        </em>
                     </div>
                 </section>
-                <Numbers/>
-                
+                <Numbers />
             </div>
-            <Footer/>
-            <Sponsors/>
+            <Footer />
+            <Sponsors />
         </div>
     );
 };
