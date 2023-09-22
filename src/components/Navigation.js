@@ -41,9 +41,19 @@ const Navigation = () => {
         }
     }, [showLinks]);
 
+    const handleScrollToTop = () => {
+        window.scrollTo({
+            top: 0,            
+            behavior: "smooth",
+          });
+    };
+
     return (
         <div className="navigation" ref={(el) => (navbar = el)}>
-            <NavLink to="/">
+            <NavLink 
+            to="/"
+            onClick={handleScrollToTop}
+            >
                 <div className="logo">
                     <img
                         src="./assets/img/logoTitrev3.png"
@@ -61,31 +71,36 @@ const Navigation = () => {
             <ul className={showLinks ? 'show-nav' : ''}>
                 <NavLink
                     to="/"
-                    className={(nav) => (nav.isActive ? 'nav-active' : '')}
+                    className={(nav) => (nav.isActive ? 'nav-active' : '')} 
+                    onClick={handleScrollToTop}                   
                 >
                     <li>Accueil</li>
                 </NavLink>
                 <NavLink
                     to="/programme"
-                    className={(nav) => (nav.isActive ? 'nav-active' : '')}
+                    className={(nav) => (nav.isActive ? 'nav-active' : '')} 
+                    onClick={handleScrollToTop}                   
                 >
                     <li>Programme</li>
                 </NavLink>
                 <NavLink
                     to="/inscriptions"
-                    className={(nav) => (nav.isActive ? 'nav-active' : '')}
+                    className={(nav) => (nav.isActive ? 'nav-active' : '')}  
+                    onClick={handleScrollToTop}                  
                 >
                     <li>Inscriptions</li>
                 </NavLink>
                 <NavLink
                     to="/archives"
-                    className={(nav) => (nav.isActive ? 'nav-active' : '')}
+                    className={(nav) => (nav.isActive ? 'nav-active' : '')}  
+                    onClick={handleScrollToTop}                  
                 >
                     <li>Archives</li>
                 </NavLink>
                 <NavLink
                     to="/contact"
-                    className={(nav) => (nav.isActive ? 'nav-active' : '')}
+                    className={(nav) => (nav.isActive ? 'nav-active' : '')}    
+                    onClick={handleScrollToTop}                
                 >
                     <li>Contact</li>
                 </NavLink>
@@ -93,6 +108,7 @@ const Navigation = () => {
                     href="https://www.facebook.com/TrailMucoDuPaysDeVitre/?locale=fr_FR"
                     target="_blank"
                     rel="noreferrer"
+                    
                 >
                     <i className="fa-brands fa-facebook"></i>
                 </a>
