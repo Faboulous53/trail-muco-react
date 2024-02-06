@@ -29,7 +29,7 @@ const Home = () => {
                     alt="trail muco édition 2023"
                 />
                 <h1>Trail Muco</h1>
-                <h3>6 et 7 octobre 2023</h3>
+                <h3>4 et 5 octobre 2024</h3>
             </section>
             <div className="first-container">
                 <section className="container-section">

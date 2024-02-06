@@ -11,7 +11,11 @@ const Program = () => {
                 <h2>Programme</h2>
             </div>
             <div className="first-container header-program">
-                <h2>Retrouvez ici les parcours prévus pour l'édition 2023</h2>
+                {/* en attente de maj */}
+                <div className="update">
+                <h2>Attention, il s'agit de l'édition 2023.</h2>
+                <p>Les données ci-dessous ne sont pas actualisées pour 2024</p>
+                </div>                
                 <h3> Vendredi 6 octobre 2023 </h3>
 
                 <section className="container-section program nocturne">

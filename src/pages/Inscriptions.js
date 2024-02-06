@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Sponsors from '../components/Sponsors';
-import Footer from '../components/Footer';
+
 
 const Inscriptions = () => {
     return (
@@ -13,9 +13,10 @@ const Inscriptions = () => {
                 </div>
                 <div className="container-section-inscription">
                     <div className="why-trail-left inscription">
-                        <h3>Les inscriptions sont actuellement ouvertes.</h3>
+                        <h3 className=''>Les inscriptions sont actuellement fermées.</h3>
+                        <p>La date d'ouverture de celles-ci n'est pas encore connues.</p>
                         <div className="inscription-bloc">
-                            <div className="containers-inscription">
+                            {/* <div className="containers-inscription">
                                 <h4>Via Internet:</h4>
                                 <p>
                                     Cliquez sur le logo de notre partenaire
@@ -35,8 +36,8 @@ const Inscriptions = () => {
                                     * Attention, l'inscription nécessite la
                                     création d'un compte sur Klikego.{' '}
                                 </em>
-                            </div>
-                            <div className="inscription-bloc">
+                            </div> */}
+                            {/* <div className="inscription-bloc">
                                 <div className="containers-inscription">
                                     <h4>Sur place:</h4>
                                     <p className="text">
@@ -45,7 +46,7 @@ const Inscriptions = () => {
                                         mais déconseillées.
                                     </p>
                                     <p className="majoration">
-                                        {' '}
+                                        
                                         Celles-ci entrainent une majoration de
                                         2€ supplémentaires.
                                     </p>
@@ -58,11 +59,11 @@ const Inscriptions = () => {
                                 <br />
                                 Par conséquent, uniquement pour ces courses,
                                 aucune majoration ne sera appliquée.
-                            </em>
+                            </em> */}
                         </div>
                     </div>
                 </div>
-                <Footer />
+                {/* <Footer /> */}
                 <Sponsors />
             </div>
         </div>

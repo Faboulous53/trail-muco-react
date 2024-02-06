@@ -2,18 +2,22 @@
     display: flex;
     gap: 10px;
     width: 70%;
-    margin: 0 auto 350px;
+    margin: 10% auto;
     color: white;
     border-radius: 5px;
     font-family: $font-1;
     font-size: 1.2rem;
     line-height: 2rem;
+    
+    
 
     .inscription {
         font-weight: bold;
         margin: 0 auto;
         min-width: 100%;
         letter-spacing: 2px;
+        //Pour inscription fermées à enlever après
+        animation: animWarning 4s ease-in-out infinite;
 
         p {
             font-size: 1.5rem;

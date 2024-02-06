@@ -125,6 +125,12 @@ const sponsorsData = [
         img: 'maison-hermine.jpg',
         link: 'https://www.maisonhermine.fr/',
     },
+    {
+        id: 22,
+        name: 'We recruite',
+        img: 'we-recruite.jpg',
+        link: 'https://werecruit.com/',
+    },
 ];
 
 export default sponsorsData;

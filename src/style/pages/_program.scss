@@ -10,11 +10,21 @@
         font-family: $font-1;
         font-size: 1.2rem;
         position: relative;
+        
 
         h3 {
             font-size: 2rem;
             font-weight: bold;
             margin: 20px 0;
+        }
+//En attente de MAJ
+        .update{
+            margin: 0 auto;            
+            max-width: 50%;
+            border-radius: 10px;
+            background: rgba(243, 71, 71, 0.923);
+            color: white;
+            padding: 10px;
         }
     }
 
@@ -127,6 +137,10 @@
     }
 }
 @media screen and (max-width: 600px) {
+//En attente de MAJ
+    .update{
+       min-width: 80%;
+    }
     .children-right {
         display: flex;
         flex-direction: column;

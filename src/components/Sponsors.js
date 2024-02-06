@@ -15,7 +15,7 @@ const Sponsors = () => {
         const handleResize = () => {
             switch (true) {
                 case window.innerWidth < 400:
-                    setWidthWindow(2);
+                    setWidthWindow(4);
                     break;
                 case window.innerWidth < 800:
                     setWidthWindow(3);
@@ -24,10 +24,10 @@ const Sponsors = () => {
                     setWidthWindow(4);
                     break;
                 case window.innerWidth < 1800:
-                    setWidthWindow(5);
+                    setWidthWindow(6);
                     break;
                 default:
-                    setWidthWindow(6);
+                    setWidthWindow(8);
                     break;
             }
         };
@@ -57,7 +57,12 @@ const Sponsors = () => {
                         interval: 1000,
                         arrows: false,
                         rewind: false,
-                        start: `${actualSlide !== undefined ? actualSlide : 0}`,
+                        // Avant fonction math.random la valeur était de 0
+                        start: `${
+                            actualSlide !== undefined
+                                ? actualSlide
+                                : Math.random() * (sponsorsData.length - 0) + 0
+                        }`,
                     }}
                     onMoved={handleSlideMoved}
                     ref={splideRef}
