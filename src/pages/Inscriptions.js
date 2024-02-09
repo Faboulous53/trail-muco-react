@@ -2,7 +2,6 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import Sponsors from '../components/Sponsors';
 
-
 const Inscriptions = () => {
     return (
         <div>
@@ -13,8 +12,13 @@ const Inscriptions = () => {
                 </div>
                 <div className="container-section-inscription">
                     <div className="why-trail-left inscription">
-                        <h3 className=''>Les inscriptions sont actuellement fermées.</h3>
-                        <p>La date d'ouverture de celles-ci n'est pas encore connues.</p>
+                        <h3 className="">
+                            Les inscriptions sont actuellement fermées.
+                        </h3>
+                        <p>
+                            La date d'ouverture de celles-ci n'est pas encore
+                            connue.
+                        </p>
                         <div className="inscription-bloc">
                             {/* <div className="containers-inscription">
                                 <h4>Via Internet:</h4>

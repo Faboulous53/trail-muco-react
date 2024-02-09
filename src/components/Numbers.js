@@ -36,14 +36,14 @@ function Numbers() {
                 {animateCountUp && !playOne ? (
                     <CountUp
                         start={0}
-                        end={17}
+                        end={18}
                         duration={8}
                         onEnd={() => {
                             setPlayOne(true);
                         }}
                     ></CountUp>
                 ) : (
-                    <span>17</span>
+                    <span>18</span>
                 )}
 
                 <p>édition</p>
@@ -53,7 +53,7 @@ function Numbers() {
                 {animateCountUp && !playOne ? (
                     <CountUp
                         start={0}
-                        end={299191}
+                        end={317252}
                         separator=" "
                         suffix=" €"
                         duration={6}
@@ -62,7 +62,7 @@ function Numbers() {
                         }}
                     ></CountUp>
                 ) : (
-                    <span>299 191€</span>
+                    <span>317 252€</span>
                 )}
                 <p>reversés à la muco</p>
             </div>
@@ -71,14 +71,14 @@ function Numbers() {
                 {animateCountUp && !playOne ? (
                     <CountUp
                         start={0}
-                        end={1001}
+                        end={1278}
                         separator=" "
                         duration={6}
                     ></CountUp>
                 ) : (
-                    <span>1001</span>
+                    <span>1 278</span>
                 )}
-                <p>participants en 2022</p>
+                <p>participants en 2023</p>
             </div>
         </div>
     );
