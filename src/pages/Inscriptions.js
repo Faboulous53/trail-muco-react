@@ -13,21 +13,17 @@ const Inscriptions = () => {
                 <div className="container-section-inscription">
                     <div className="why-trail-left inscription">
                         <h3 className="">
-                            Les inscriptions sont actuellement fermées.
+                            Les inscriptions sont actuellement ouvertes!
                         </h3>
-                        <p>
-                            La date d'ouverture de celles-ci n'est pas encore
-                            connue.
-                        </p>
                         <div className="inscription-bloc">
-                            {/* <div className="containers-inscription">
+                            <div className="containers-inscription">
                                 <h4>Via Internet:</h4>
                                 <p>
                                     Cliquez sur le logo de notre partenaire
                                     Klikego ci-dessous:
                                 </p>
                                 <a
-                                    href="https://www.klikego.com/inscription/trail-muco-pays-de-vitre-17eme-edition-base-de-loisir-de-haute-vilaine-st-mherve--la-chapelle-erbree-2023/running-marche-nordique/1432099242027-8"
+                                    href="https://www.klikego.com/inscription/trail-muco-pays-de-vitre-18eme-edition-base-de-loisir-de-haute-vilaine-st-mherve--la-chapelle-erbree-2024/running-marche-nordique/1432099242027-9"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -40,8 +36,8 @@ const Inscriptions = () => {
                                     * Attention, l'inscription nécessite la
                                     création d'un compte sur Klikego.{' '}
                                 </em>
-                            </div> */}
-                            {/* <div className="inscription-bloc">
+                            </div>
+                            <div className="inscription-bloc">
                                 <div className="containers-inscription">
                                     <h4>Sur place:</h4>
                                     <p className="text">
@@ -50,7 +46,6 @@ const Inscriptions = () => {
                                         mais déconseillées.
                                     </p>
                                     <p className="majoration">
-                                        
                                         Celles-ci entrainent une majoration de
                                         2€ supplémentaires.
                                     </p>
@@ -63,7 +58,7 @@ const Inscriptions = () => {
                                 <br />
                                 Par conséquent, uniquement pour ces courses,
                                 aucune majoration ne sera appliquée.
-                            </em> */}
+                            </em>
                         </div>
                     </div>
                 </div>

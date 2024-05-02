@@ -2,7 +2,7 @@
     display: flex;
     gap: 10px;
     width: 70%;
-    margin: 10% auto;
+    margin: 5% auto;
     color: white;
     border-radius: 5px;
     font-family: $font-1;
@@ -17,7 +17,7 @@
         min-width: 100%;
         letter-spacing: 2px;
         //Pour inscription fermées à enlever après
-        animation: animWarning 4s ease-in-out infinite;
+        //animation: animWarning 4s ease-in-out infinite;
 
         p {
             font-size: 1.5rem;

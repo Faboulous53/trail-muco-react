@@ -12,11 +12,11 @@ const Program = () => {
             </div>
             <div className="first-container header-program">
                 {/* en attente de maj */}
-                <div className="update">
+                {/* <div className="update">
                 <h2>Attention, il s'agit de l'édition 2023.</h2>
                 <p>Les données ci-dessous ne sont pas actualisées pour 2024</p>
-                </div>                
-                <h3> Vendredi 6 octobre 2023 </h3>
+                </div>                 */}
+                <h3> Vendredi 4 octobre 2024 (soir)</h3>
 
                 <section className="container-section program nocturne">
                     <div className="children-left">
@@ -27,7 +27,7 @@ const Program = () => {
                         />
                     </div>
                     <div className="children-right">
-                        <h2>Les Cap'Tambule</h2>
+                        <h2>Les Cap'Tambules</h2>
                         <strong>
                             Départ centre bourg de La Chapelle Erbrée.
                         </strong>
@@ -75,7 +75,7 @@ const Program = () => {
                     </div>
                 </section>
 
-                <h3> Samedi 7 octobre 2023 </h3>
+                <h3> Samedi 5 octobre 2024 </h3>
 
                 <section className="container-section program">
                     <div
@@ -163,21 +163,21 @@ const Program = () => {
                         <em>Premier départ à partir de 10h45.</em>
                         <ul>
                             <li className="custom-li">
-                                800m (enfants nés de 2014 et +)
+                                800m (enfants nés de 2015 et +)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 10h45{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
                             <li className="custom-li">
-                                2000m (enfants nés de 2013 et avant)
+                                2000m (enfants nés de 2014 et avant)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first "></i>{' '}
                                 Départ à 11h00{' '}
                                 <i className="fa-solid fa-flag-checkered last "></i>
                             </li>
                             <li className="custom-li">
-                                3000m (enfants nés en 2011 et avant)
+                                3000m (enfants nés en 2012 et avant)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 11h15{' '}
@@ -245,7 +245,7 @@ const Program = () => {
                                 </a>
                             </li>
                             <li className="custom-li">
-                                22km (12 €)
+                                La Groupama 22km (12 €)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 14h00{' '}
@@ -261,7 +261,7 @@ const Program = () => {
                                 </a>
                             </li>
                             <li className="custom-li">
-                                La Pigeon-Trail 10km (12€)
+                                La Pigeon 10km (12€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 15h00{' '}
@@ -313,14 +313,14 @@ const Program = () => {
 
                         <ul className="nocturne-list">
                             <li className="custom-li">
-                                12km - L'OTSI (6€)
+                                12km - La Vitrée Accueil (6€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ: 13h35{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
                             <li className="custom-li">
-                                9km - La Vitré Accueil (6€) <br />
+                                9km - L' OTSI (6€) <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ: 14h15{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
@@ -337,7 +337,7 @@ const Program = () => {
                         <em>* Inscriptions uniquement sur place.</em>
                     </div>
                 </section>
-                <section className="container-section program">
+                <section className="container-section program end">
                     <div
                         className="children-left"
                         data-aos="fade-right"
@@ -365,11 +365,11 @@ const Program = () => {
                                 34km (18€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Vendredi 6 octobre à 20h (Cap'Tambule).
+                                Vendredi 4 octobre à 20h00 (Cap'Tambule).
                                 <i className="fa-solid fa-flag-checkered last"></i>
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Samedi 7 octobre à 14h (Trail 22km)
+                                Samedi 5 octobre à 14h00 (La Groupama 22km)
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
                         </ul>
@@ -387,7 +387,7 @@ const Program = () => {
                         </div>
                     </div>
                 </section>
-                <section className="container-section program end">
+                {/* <section className="container-section program end">
                     <div
                         className="children-left"
                         data-aos="fade-right"
@@ -436,7 +436,7 @@ const Program = () => {
                         </a>
                         <em>* Chèque à l'ordre de VLM Virade de Vitré.</em>
                     </div>
-                </section>
+                </section> */}
             </div>
             <Footer />
             <Sponsors />

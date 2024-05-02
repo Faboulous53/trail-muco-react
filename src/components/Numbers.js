@@ -44,8 +44,7 @@ function Numbers() {
                     ></CountUp>
                 ) : (
                     <span>18</span>
-                )}
-
+                )}                
                 <p>édition</p>
             </div>
             <div className="in-number-center">
