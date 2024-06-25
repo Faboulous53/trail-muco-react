@@ -18,6 +18,16 @@ const Program = () => {
                 </div>                 */}
                 <h3> Vendredi 4 octobre 2024 (soir)</h3>
 
+                <a
+                    href="../assets/documents/reglement2024.png"
+                    target="_blank"
+                    download="reglement2024.png"
+                >
+                    <button className="btn-race">
+                        Télécharger le règlement
+                    </button>
+                </a>
+
                 <section className="container-section program nocturne">
                     <div className="children-left">
                         <img
@@ -63,7 +73,12 @@ const Program = () => {
                                 </a>
                             </li>
                         </ul>
-                        <em>* Certificat médical obligatoire.</em>
+                        <em>
+                            * Attestation Parcours Prévention Santé obligatoire.
+                            <br></br>
+                            Voir article 4 du règlement.
+                        </em>
+
                         <div className="warning">
                             <div className="wild">
                                 <i className="fa-solid fa-triangle-exclamation custom"></i>
@@ -130,9 +145,9 @@ const Program = () => {
                             <p>Prévoir vos écotasses.</p>
                         </div>
                         <em>
-                            * Licence FFA ou FSCF ou certificat médical
-                            obligatoire avec notion marche nordique en
-                            compétition (uniquement pour le 16km).
+                            * Licence FFA ou FSCF avec notion marche nordique en
+                            compétition (uniquement pour le 16km) et attestation
+                            Parcours Prévention Santé obligatoire.
                         </em>
                     </div>
                 </section>
@@ -154,7 +169,7 @@ const Program = () => {
                         data-aos="fade-left"
                         data-aos-offset="200"
                     >
-                        <h2>Course Enfants</h2>
+                        <h2>Courses Enfants</h2>
                         <strong>
                             Départ de la base de loisirs de Haute Vilaine - à St
                             M'Hervé (35)
@@ -185,9 +200,9 @@ const Program = () => {
                             </li>
                         </ul>
                         <a
-                            href="../assets/documents/coupon inscription enfant trail-muco.jpg"
+                            href="../assets/documents/Flyer enfant VERSO.png"
                             target="_blank"
-                            download="coupon inscription enfant trail-muco.jpg"
+                            download="Flyer enfant VERSO.png"
                         >
                             <button className="btn-race">
                                 Télécharger le coupon d'inscription
@@ -201,7 +216,10 @@ const Program = () => {
                             </div>
                             <p>Prévoir vos écotasses.</p>
                         </div>
-                        <em>*Attestation d'accord parental obligatoire. </em>
+                        <em>
+                            *Attestation d'accord parental obligatoire.<br></br>
+                            Un coupon par enfant.
+                        </em>
                     </div>
                 </section>
                 <section className="container-section program">
@@ -285,7 +303,11 @@ const Program = () => {
                             </div>
                             <p>Prévoir vos écotasses.</p>
                         </div>
-                        <em>* Certificat médical obligatoire.</em>
+                        <em>
+                            * Attestation Parcours Prévention Santé obligatoire.
+                            <br></br>
+                            Voir article 4 du règlement.
+                        </em>
                     </div>
                 </section>
                 <section className="container-section program">
@@ -313,7 +335,7 @@ const Program = () => {
 
                         <ul className="nocturne-list">
                             <li className="custom-li">
-                                12km - La Vitrée Accueil (6€)
+                                12km - Vitrée Accueil (6€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ: 13h35{' '}
@@ -354,7 +376,7 @@ const Program = () => {
                         data-aos="fade-left"
                         data-aos-offset="200"
                     >
-                        <h2>Défis Planchais</h2>
+                        <h2>Défi Planchais</h2>
                         <strong>
                             Départ de la base de loisirs de Haute Vilaine - à St
                             M'Hervé (35)

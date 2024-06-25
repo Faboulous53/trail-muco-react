@@ -52,7 +52,7 @@ const Home = () => {
                                 Vaincre la mucoviscidose.
                             </h2>
                             <p>
-                                Depuis bientôt 15 ans, un groupe de bénévoles
+                                Depuis bientôt 18 ans, un groupe de bénévoles
                                 organisent ce trail muco pour récolter des fonds
                                 dans le pays de Vitré pour lutter contre la
                                 mucoviscidose.
@@ -93,7 +93,7 @@ const Home = () => {
                     >
                         <h2>Actualité</h2>
                         <img
-                            src="./assets/img/message.jpg"
+                            src="./assets/img/messageCertificat.png"
                             alt="move for muco"
                         />
                     </div>

@@ -131,6 +131,18 @@ const sponsorsData = [
         img: 'we-recruite.jpg',
         link: 'https://werecruit.com/',
     },
+    {
+        id: 23,
+        name: 'Mytilimer',
+        img: 'logotype_mytilimer_RVB_fondbleu.png',
+        link: 'https://www.lacancalaise.fr/',
+    },
+    {
+        id: 24,
+        name: 'interaction',
+        img: 'interaction.png',
+        link: 'https://werecruit.com/',
+    },
 ];
 
 export default sponsorsData;

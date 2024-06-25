@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
+import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
     return (
@@ -12,23 +13,8 @@ const Contact = () => {
             </div>
             <div className="container-section-contact">
                 <div className="why-trail-left contact">
-                    <p>
-                        L'ensemble de l'équipe organisatrice est à votre
-                        disposition.
-                    </p>
-                    <strong>
-                        Pour tout renseignement, inscription ou encore demande
-                        de sponsoring cliquez sur le bouton ci-dessous afin
-                        d'envoyer un e-mail, nous vous répondrons dès que
-                        possible.
-                    </strong>
-                    <a href="mailto:contact@trailmuco.fr">
-                        <button className="btn mail">Envoyer un e-mail</button>
-                    </a>
-                    <em>
-                        Un formulaire de contact sera prochainement mis en
-                        place.
-                    </em>
+                <h2>Vous pouvez nous contacter à l'aide du formulaire d'envoi ci-dessous:</h2>
+                    <ContactForm></ContactForm>
                 </div>
                 <div className="contact-right">
                     <img

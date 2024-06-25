@@ -1,67 +1,103 @@
-.container-section-contact{
+.container-section-contact {
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 5px;   
+    gap: 5px;
     width: 70%;
     margin: 0 auto 350px;
     color: white;
     border-radius: 5px;
-    
 
-    .contact{ 
+    .contact {
         width: 100%;
         text-align: center;
         font-weight: bold;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
+        //justify-content: center;
+        //align-items: center;
+        gap: 10px;
         font-family: $font-1;
         font-size: 1.2rem;
         line-height: 2rem;
-    
-        p{
+
+        p {
             padding: 20px 0;
             font-size: 2rem;
-        }  
-    }    
+        }
 
-    .long-title{
+        form div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-right: 5px;
+        }
+
+        input {
+            border-radius: 5px;
+            width: 80%;
+            height: 40px;
+            margin: 0 auto;
+        }
+
+        textarea {
+            border-radius: 5px;
+            width: 100%;
+            min-height: 120px;
+            resize: none;
+            margin-bottom: 10px;
+        }       
+
+        /* Personnalisation des barres de défilement pour Firefox */
+        textarea {
+            scrollbar-width: 15px; /* Largeur de la scrollbar (thin, auto) */
+            scrollbar-color: $color-1 #f1f1f1;
+            border-radius: 10px; /* Bords arrondis */
+            /* Couleur du pouce et de la piste */
+        }
+
+        .capcha{
+            align-items: center;
+        }
+
+        .formSubmit {            
+            width: 150px;
+            margin: 20px auto;
+        }
+    }
+
+    .long-title {
         text-align: center;
     }
 
-    .contact-right{
-     
-    img{
-        width: 100%; 
-        height: 100%; 
-        box-sizing: border-box;      
-        border-radius: 10px;
+    .contact-right {
+        img {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
     }
-    }
-    
 }
 
 @media screen and (max-width: 1600px) {
-    .container-section-contact{        
+    .container-section-contact {
         grid-template-columns: 50% 50%;
-}
+    }
 }
 
 @media screen and (max-width: 1400px) {
-    .container-section-contact{
-       width: 90%;         
-       display: flex;
-       flex-direction: column;
-}
+    .container-section-contact {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-@media screen and (max-width: 300px) {    
-    .container-section-contact{
+@media screen and (max-width: 300px) {
+    .container-section-contact {
         width: 98%;
     }
-    }
-
-    
+}
