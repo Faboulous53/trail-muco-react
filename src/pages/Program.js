@@ -145,9 +145,7 @@ const Program = () => {
                             <p>Prévoir vos écotasses.</p>
                         </div>
                         <em>
-                            * Licence FFA ou FSCF avec notion marche nordique en
-                            compétition (uniquement pour le 16km) et attestation
-                            Parcours Prévention Santé obligatoire.
+                            * Licence FFA ou attestation PPS obligatoire (uniquement pour le 16km).
                         </em>
                     </div>
                 </section>

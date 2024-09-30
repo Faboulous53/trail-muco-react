@@ -143,6 +143,12 @@ const sponsorsData = [
         img: 'interaction.png',
         link: 'https://werecruit.com/',
     },
+    {
+        id: 2,
+        name: 'Biocoop',
+        img: 'biocoop.jpg',
+        link: 'https://www.biocoop-paysdevitre.fr/',
+    },
 ];
 
 export default sponsorsData;
