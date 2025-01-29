@@ -12,13 +12,16 @@ const Inscriptions = () => {
                 </div>
                 <div className="container-section-inscription">
                     <div className="why-trail-left inscription">
-                        <h3 className="">
+                        {/* <h3 className="">
                             Les inscriptions sont actuellement ouvertes!
+                        </h3> */}
+                        <h3 className="">
+                            Les inscriptions sont actuellement fermées!
                         </h3>
                         <div className="inscription-bloc">
-                            <div className="containers-inscription">
-                                <h4>Via Internet:</h4>
-                                <p>
+                            <div className="containers-inscription warning">
+                                <h4>Les inscriptions 2025 sont en cours de préparation.</h4>
+                                {/* <p>
                                     Cliquez sur le logo de notre partenaire
                                     Klikego ci-dessous:
                                 </p>
@@ -35,9 +38,9 @@ const Inscriptions = () => {
                                 <em>
                                     * Attention, l'inscription nécessite la
                                     création d'un compte sur Klikego.{' '}
-                                </em>
+                                </em> */}
                             </div>
-                            <div className="inscription-bloc">
+                            {/* <div className="inscription-bloc">
                                 <div className="containers-inscription">
                                     <h4>Sur place:</h4>
                                     <p className="text">
@@ -58,7 +61,7 @@ const Inscriptions = () => {
                                 <br />
                                 Par conséquent, uniquement pour ces courses,
                                 aucune majoration ne sera appliquée.
-                            </em>
+                            </em> */}
                         </div>
                     </div>
                 </div>

@@ -29,7 +29,7 @@ const Home = () => {
                     alt="trail muco édition 2023"
                 />
                 <h1>Trail Muco</h1>
-                <h3>4 et 5 octobre 2024</h3>
+                <h3>3 et 4 octobre 2025</h3>
             </section>
             <div className="first-container">
                 <section className="container-section">
@@ -52,7 +52,7 @@ const Home = () => {
                                 Vaincre la mucoviscidose.
                             </h2>
                             <p>
-                                Depuis bientôt 18 ans, un groupe de bénévoles
+                                Depuis bientôt 20 ans, un groupe de bénévoles
                                 organisent ce trail muco pour récolter des fonds
                                 dans le pays de Vitré pour lutter contre la
                                 mucoviscidose.
@@ -92,10 +92,16 @@ const Home = () => {
                         data-aos-offset="300"
                     >
                         <h2>Actualité</h2>
-                        <img
-                            src="./assets/img/messageCertificat.png"
-                            alt="move for muco"
-                        />
+                        <a
+                            href="https://chronowest.fr/resultats/trail-muco-2024/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <img
+                                src="./assets/img/résultats2024.png"
+                                alt="move for muco"
+                            />
+                        </a>
                     </div>
                 </section>
                 <section className="container-section">

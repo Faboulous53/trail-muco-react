@@ -49,7 +49,7 @@ const Program = () => {
                         </em>
                         <ul className="nocturne-list">
                             <li className="custom-li">
-                                12 km (10€)
+                                12 km (12€)
                                 <a
                                     href="../assets/img/parcours/TRAIL_MUCO_GRAND_CAPTAMBULE_12KM_page-0001.jpg"
                                     target="_blank"
@@ -61,7 +61,7 @@ const Program = () => {
                                 </a>
                             </li>
                             <li className="custom-li">
-                                5 km (8€)
+                                5 km (10€)
                                 <a
                                     href="../assets/img/parcours/TRAIL_MUCO_PETIT_CAPTAMBULE_5KM_page-0001.jpg"
                                     target="_blank"
@@ -118,7 +118,7 @@ const Program = () => {
                         <em>Départ à 10h00 (Échauffement à 9h45).</em>
                         <ul className="nocturne-list">
                             <li className="custom-li nordique">
-                                Le Delanchy, 16km chronométrée (12€) <br />
+                                Le Delanchy, 16km chronométrée (14€) <br/>
                                 <span>
                                     <i className="fa-solid fa-flag-checkered first"></i>
                                     Challenge Nordique Bretagne
@@ -198,12 +198,12 @@ const Program = () => {
                             </li>
                         </ul>
                         <a
-                            href="../assets/documents/Flyer enfant VERSO.png"
-                            target="_blank"
-                            download="Flyer enfant VERSO.png"
+                            // href="../assets/documents/Flyer enfant VERSO.png"
+                            // target="_blank"
+                            // download="Flyer enfant VERSO.png"
                         >
                             <button className="btn-race">
-                                Télécharger le coupon d'inscription
+                                Inscriptions indisponibles
                             </button>
                         </a>
                         <div className="warning">
@@ -245,7 +245,7 @@ const Program = () => {
                         <br />
                         <ul>
                             <li className="custom-li">
-                                29km (12€)
+                                29km (14€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 13h30{' '}
@@ -261,7 +261,7 @@ const Program = () => {
                                 </a>
                             </li>
                             <li className="custom-li">
-                                La Groupama 22km (12 €)
+                                La Groupama 22km (14€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 14h00{' '}
@@ -277,7 +277,7 @@ const Program = () => {
                                 </a>
                             </li>
                             <li className="custom-li">
-                                La Pigeon 10km (12€)
+                                La Pigeon 10km (14€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 15h00{' '}
@@ -333,14 +333,14 @@ const Program = () => {
 
                         <ul className="nocturne-list">
                             <li className="custom-li">
-                                12km - Vitrée Accueil (6€)
+                                12km - Vitrée Accueil (8€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ: 13h35{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
                             <li className="custom-li">
-                                9km - L' OTSI (6€) <br />
+                                9km - L' OTSI (8€) <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ: 14h15{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
@@ -382,7 +382,7 @@ const Program = () => {
 
                         <ul className="nocturne-list">
                             <li className="custom-li">
-                                34km (18€)
+                                34km (20€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Vendredi 4 octobre à 20h00 (Cap'Tambule).

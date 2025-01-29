@@ -75,6 +75,32 @@
         .majoration {
             color: red;
         }
+//commenter le code ci dessous lors de la reprise des inscriptions
+// enlever la classe warning dans les inscriptions.js
+        .warning {
+            margin: 5% 15%;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            background: white;
+            color: red;
+            border-radius: 20px;
+            animation: animWarning 4s ease-in-out infinite;
+
+            .wild {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+
+        @keyframes animWarning {
+            50% {
+                background: rgba(243, 71, 71, 0.923);
+                color: white;
+            }
+        }
     }
 }
 
