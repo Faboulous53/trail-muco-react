@@ -16,7 +16,7 @@ const Program = () => {
                 <h2>Attention, il s'agit de l'édition 2023.</h2>
                 <p>Les données ci-dessous ne sont pas actualisées pour 2024</p>
                 </div>                 */}
-                <h3> Vendredi 4 octobre 2024 (soir)</h3>
+                <h3> Vendredi 3 octobre 2025 (soir)</h3>
 
                 <a
                     href="../assets/documents/reglement2024.png"
@@ -90,7 +90,7 @@ const Program = () => {
                     </div>
                 </section>
 
-                <h3> Samedi 5 octobre 2024 </h3>
+                <h3> Samedi 4 octobre 2025 </h3>
 
                 <section className="container-section program">
                     <div
@@ -197,15 +197,15 @@ const Program = () => {
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
                         </ul>
-                        <a
-                            // href="../assets/documents/Flyer enfant VERSO.png"
+                        {/* <a
+                            href="../assets/documents/Flyer enfant VERSO.png"
                             // target="_blank"
                             // download="Flyer enfant VERSO.png"
-                        >
+                        > */}
                             <button className="btn-race">
                                 Inscriptions indisponibles
                             </button>
-                        </a>
+                        {/* </a> */}
                         <div className="warning">
                             <div className="wild">
                                 <i className="fa-solid fa-triangle-exclamation custom"></i>

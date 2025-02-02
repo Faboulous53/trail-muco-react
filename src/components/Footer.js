@@ -18,7 +18,7 @@ const Footer = () => {
                         Delpierre Fabien
                     </a>
                 </p>
-                <p>Dernière mise à jour: le 29/01/2025</p>
+                <p>Dernière mise à jour: le 03/02/2025</p>
             </div>
         </div>
     );
