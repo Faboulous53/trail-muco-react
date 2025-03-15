@@ -38,7 +38,7 @@ const sponsorsData = [
     {
         id: 7,
         name: 'Groupama',
-        img: 'groupamaLogo.jpg',
+        img: 'groupama.jpg',
         link: 'https://www.groupama.fr/',
     },
     {

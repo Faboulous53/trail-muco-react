@@ -19,9 +19,9 @@ const Program = () => {
                 <h3> Vendredi 3 octobre 2025 (soir)</h3>
 
                 <a
-                    href="../assets/documents/reglement2024.png"
+                    href="../assets/documents/Reglement Trail Muco.pdf"
                     target="_blank"
-                    download="reglement2024.png"
+                    download="Reglement Trail Muco.pdf"
                 >
                     <button className="btn-race">
                         Télécharger le règlement
@@ -51,9 +51,9 @@ const Program = () => {
                             <li className="custom-li">
                                 12 km (12€)
                                 <a
-                                    href="../assets/img/parcours/TRAIL_MUCO_GRAND_CAPTAMBULE_12KM_page-0001.jpg"
+                                    href="../assets/img/parcours/Trail Muco cap'tambule 12Km 2025.pdf"
                                     target="_blank"
-                                    download="TRAIL_MUCO_GRAND_CAPTAMBULE_12KM_page-0001.jpg"
+                                    download="Trail Muco cap'tambule 12Km 2025.pdf"
                                 >
                                     <button className="btn-race">
                                         Télécharger le tracé
@@ -63,9 +63,9 @@ const Program = () => {
                             <li className="custom-li">
                                 5 km (10€)
                                 <a
-                                    href="../assets/img/parcours/TRAIL_MUCO_PETIT_CAPTAMBULE_5KM_page-0001.jpg"
+                                    href="../assets/img/parcours/Trail Muco petite cap'tambule 5Km 2025-1.pdf"
                                     target="_blank"
-                                    download="TRAIL_MUCO_PETIT_CAPTAMBULE_5KM_page-0001.jpg"
+                                    download="Trail Muco petite cap'tambule 5Km 2025-1.pdf"
                                 >
                                     <button className="btn-race">
                                         Télécharger le tracé
@@ -118,7 +118,7 @@ const Program = () => {
                         <em>Départ à 10h00 (Échauffement à 9h45).</em>
                         <ul className="nocturne-list">
                             <li className="custom-li nordique">
-                                Le Delanchy, 16km chronométrée (14€) <br/>
+                                Le Delanchy, 16km chronométrée (14€) <br />
                                 <span>
                                     <i className="fa-solid fa-flag-checkered first"></i>
                                     Challenge Nordique Bretagne
@@ -145,7 +145,8 @@ const Program = () => {
                             <p>Prévoir vos écotasses.</p>
                         </div>
                         <em>
-                            * Licence FFA ou attestation PPS obligatoire (uniquement pour le 16km).
+                            * Licence FFA ou attestation PPS obligatoire
+                            (uniquement pour le 16km).
                         </em>
                     </div>
                 </section>
@@ -176,13 +177,16 @@ const Program = () => {
                         <em>Premier départ à partir de 10h45.</em>
                         <ul>
                             <li className="custom-li">
+                                Section actuellement en travaux.                              
+                            </li>
+                            {/* <li className="custom-li">
                                 800m (enfants nés de 2015 et +)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 10h45{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
-                            </li>
-                            <li className="custom-li">
+                            </li> */}
+                            {/* <li className="custom-li">
                                 2000m (enfants nés de 2014 et avant)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first "></i>{' '}
@@ -195,18 +199,18 @@ const Program = () => {
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 11h15{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
-                            </li>
+                            </li> */}
                         </ul>
                         {/* <a
                             href="../assets/documents/Flyer enfant VERSO.png"
                             // target="_blank"
                             // download="Flyer enfant VERSO.png"
                         > */}
-                            <button className="btn-race">
-                                Inscriptions indisponibles
-                            </button>
+                        <button className="btn-race">
+                            Inscriptions indisponibles
+                        </button>
                         {/* </a> */}
-                        <div className="warning">
+                        {/* <div className="warning">
                             <div className="wild">
                                 <i className="fa-solid fa-triangle-exclamation custom"></i>
                                 <p>Pas de gobelets aux ravitaillements</p>
@@ -217,7 +221,7 @@ const Program = () => {
                         <em>
                             *Attestation d'accord parental obligatoire.<br></br>
                             Un coupon par enfant.
-                        </em>
+                        </em> */}
                     </div>
                 </section>
                 <section className="container-section program">
@@ -251,9 +255,9 @@ const Program = () => {
                                 Départ à 13h30{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                                 <a
-                                    href="../assets/img/parcours/TRAIL_MUCO_29KM_page-0001.jpg"
+                                    href="../assets/img/parcours/Trail Muco 29Km 2025.pdf"
                                     target="_blank"
-                                    download="TRAIL_MUCO_29KM_page-0001.jpg"
+                                    download="Trail Muco 29Km 2025.pdf"
                                 >
                                     <button className="btn-race">
                                         Télécharger le tracé
@@ -267,9 +271,9 @@ const Program = () => {
                                 Départ à 14h00{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                                 <a
-                                    href="../assets/img/parcours/TRAIL_MUCO_22KM_page-0001.jpg"
+                                    href="../assets/img/parcours/Trail Muco 22Km 2025.pdf"
                                     target="_blank"
-                                    download="TRAIL_MUCO_22KM_page-0001.jpg"
+                                    download="Trail Muco 22Km 2025.pdf"
                                 >
                                     <button className="btn-race">
                                         Télécharger le tracé
@@ -283,9 +287,9 @@ const Program = () => {
                                 Départ à 15h00{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                                 <a
-                                    href="../assets/img/parcours/TRAIL_MUCO_10KM_page-0001.jpg"
+                                    href="../assets/img/parcours/Trail Muco 10Km 2025.pdf"
                                     target="_blank"
-                                    download="TRAIL_MUCO_10KM_page-0001.jpg"
+                                    download="Trail Muco 10Km 2025.pdf"
                                 >
                                     <button className="btn-race">
                                         Télécharger le tracé
