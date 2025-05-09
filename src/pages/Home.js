@@ -102,6 +102,7 @@ const Home = () => {
                                 alt="move for muco"
                             />
                         </a>
+                        <p>Ouverture des inscriptions le 21 juin 2025</p>
                     </div>
                 </section>
                 <section className="container-section">

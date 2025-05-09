@@ -20,7 +20,8 @@ const Inscriptions = () => {
                         </h3>
                         <div className="inscription-bloc">
                             <div className="containers-inscription warning">
-                                <h4>Les inscriptions 2025 sont en cours de préparation.</h4>
+                                <h4>Ouverture des inscriptions le 21 juin 2025.</h4>
+                                <p>Soyez prêts!</p>
                                 {/* <p>
                                     Cliquez sur le logo de notre partenaire
                                     Klikego ci-dessous:

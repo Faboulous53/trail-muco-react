@@ -155,9 +155,15 @@
     justify-content: space-evenly;
     text-align: center;
 
-    h2 {
+    h2 ,p {
         text-transform: uppercase;
         color: $color-1;
+        margin: 10px
+    }
+
+    a img {
+        width: 70%;
+        border-radius: 10px;
     }
 }
 

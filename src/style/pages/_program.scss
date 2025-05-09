@@ -47,7 +47,7 @@
 
         .first {
             transform: rotate(-20deg);
-            margin: 0 5px;
+            margin: 0 5px;            
         }
 
         .last {
@@ -63,6 +63,27 @@
 
             .nocturne-list {
                 text-align: center;
+
+                .displayPartenaire{
+                    display: flex;
+                    align-items: center;
+                    width: 80%;
+                    
+
+                    p{
+                       flex: 0 0 35%;                        
+                    }
+
+                    i{
+                        display: inline-block;                        
+                    }
+                    
+
+                    .groupamaMaladieRare img{
+                        width: 80%;
+                        flex: 0 0 50%;
+                    }
+                }
 
                 li {
                     padding: 10px;
@@ -158,6 +179,10 @@
             padding: 20px 10px;
             line-height: 1.2rem;
         }
+    }
+
+    .displayPartenaire{
+        flex-direction: column;
     }
 }
 

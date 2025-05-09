@@ -10,15 +10,7 @@ const Program = () => {
             <div className="container-title">
                 <h2>Programme</h2>
             </div>
-            <div className="first-container header-program">
-                {/* en attente de maj */}
-                {/* <div className="update">
-                <h2>Attention, il s'agit de l'édition 2023.</h2>
-                <p>Les données ci-dessous ne sont pas actualisées pour 2024</p>
-                </div>                 */}
-                <h3> Vendredi 3 octobre 2025 (soir)</h3>
-
-                <a
+             <a
                     href="../assets/documents/Reglement Trail Muco.pdf"
                     target="_blank"
                     download="Reglement Trail Muco.pdf"
@@ -27,6 +19,14 @@ const Program = () => {
                         Télécharger le règlement
                     </button>
                 </a>
+            <div className="first-container header-program">
+                {/* en attente de maj */}
+                {/* <div className="update">
+                <h2>Attention, il s'agit de l'édition 2023.</h2>
+                <p>Les données ci-dessous ne sont pas actualisées pour 2024</p>
+                </div>                 */}
+                <h3> Vendredi 3 octobre 2025 (soir)</h3>
+               
 
                 <section className="container-section program nocturne">
                     <div className="children-left">
@@ -336,18 +336,26 @@ const Program = () => {
                         </strong>
 
                         <ul className="nocturne-list">
-                            <li className="custom-li">
-                                12km - Vitrée Accueil (8€)
+                            <li className="">
+                                10km - Vitré Accueil (8€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ: 13h35{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
-                            <li className="custom-li">
-                                9km - L' OTSI (8€) <br />
-                                <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Départ: 14h15{' '}
-                                <i className="fa-solid fa-flag-checkered last"></i>
+                            <li className="displayPartenaire">
+                               <p>12km - L' OTSI (8€)</p>  
+                                
+                                <p>
+                                    <i className="fa-solid fa-flag-checkered first"></i>
+                                    Départ: 14h15
+                                    <i className="fa-solid fa-flag-checkered last"></i>
+                                </p> 
+                                <div className='groupamaMaladieRare'>
+                                    <a href="https://www.fondation-groupama.com/" target='_blank' rel="noreferrer" >
+                                <img  src="../assets/img/sponsors/GroupamaMaladiesRare.jpg" alt="" />
+                                </a>   
+                                </div>                                                                                   
                             </li>
                         </ul>
                         <div className="warning">
