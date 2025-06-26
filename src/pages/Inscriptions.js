@@ -9,25 +9,25 @@ const Inscriptions = () => {
                 <Navigation />
                 <div className="container-title">
                     <h2>Inscriptions</h2>
-                </div>
+                </div>               
                 <div className="container-section-inscription">
                     <div className="why-trail-left inscription">
                         {/* <h3 className="">
                             Les inscriptions sont actuellement ouvertes!
                         </h3> */}
                         <h3 className="">
-                            Les inscriptions sont actuellement fermées!
+                            Les inscriptions sont ouvertes!
                         </h3>
                         <div className="inscription-bloc">
-                            <div className="containers-inscription warning">
-                                <h4>Ouverture des inscriptions le 21 juin 2025.</h4>
-                                <p>Soyez prêts!</p>
-                                {/* <p>
+                            <div className="containers-inscription">
+                                {/* <h4>Ouverture des inscriptions le 21 juin 2025.</h4>
+                                <p>Soyez prêts!</p> */}
+                                <p>
                                     Cliquez sur le logo de notre partenaire
                                     Klikego ci-dessous:
                                 </p>
                                 <a
-                                    href="https://www.klikego.com/inscription/trail-muco-pays-de-vitre-18eme-edition-base-de-loisir-de-haute-vilaine-st-mherve--la-chapelle-erbree-2024/running-marche-nordique/1432099242027-9"
+                                    href="https://www.klikego.com/inscription/trail-muco-pays-de-vitre-19eme-edition-2025/running-marche-nordique/1432099242027-11"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -39,9 +39,9 @@ const Inscriptions = () => {
                                 <em>
                                     * Attention, l'inscription nécessite la
                                     création d'un compte sur Klikego.{' '}
-                                </em> */}
+                                </em>
                             </div>
-                            {/* <div className="inscription-bloc">
+                            <div className="inscription-bloc">
                                 <div className="containers-inscription">
                                     <h4>Sur place:</h4>
                                     <p className="text">
@@ -62,7 +62,7 @@ const Inscriptions = () => {
                                 <br />
                                 Par conséquent, uniquement pour ces courses,
                                 aucune majoration ne sera appliquée.
-                            </em> */}
+                            </em>
                         </div>
                     </div>
                 </div>

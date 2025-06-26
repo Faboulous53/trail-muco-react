@@ -56,19 +56,19 @@ const Navigation = () => {
             >
                 <div className="logo">
                     <img
-                        src="./assets/img/logoTitrev3.png"
+                        src="./assets/img/LogoNew.png"
                         alt="logo trail-muco Pays de Vitré"
                     />
                 </div>
             </NavLink>
             <div
-                className={`responsive-menu ${showLinks ? 'show-nav' : ''}`}
+                className={`responsive-menu ${showLinks ? 'burger-open' : ''}`}
                 onClick={handlkeShowLinks}
             >
                 <span></span>
             </div>
 
-            <ul className={showLinks ? 'show-nav' : ''}>
+            <ul className={`menu-links ${showLinks ? 'menu-open' : ''}`}>
                 <NavLink
                     to="/"
                     className={(nav) => (nav.isActive ? 'nav-active' : '')} 

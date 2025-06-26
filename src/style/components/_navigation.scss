@@ -1,187 +1,176 @@
-.navigation{ 
-    position: fixed;
-    z-index: 500; 
-    top: 0;  
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;     
-    display: flex;    
-    justify-content: space-evenly;
-    align-items: center;
-    background: white;
-    transition: 0.3s ease-in-out;  
-    
-    a{
-        text-decoration: none;
-        color: black;
-    }
-
-    .responsive-menu span{
-        display: none;
-        margin: 6px 0;
-        width: 40px;
-        height: 4px;        
-        background: $color-1;
-        border-radius: 20px;
-        transition: 0.5s ease-in-out; 
-    }
-
-    .responsive-menu span::after{
-        position: absolute;
-        content: "";
-        width: 40px;
-        height: 4px;
-        background: $color-1;
-        border-radius: 20px;
-        transform: translateY(12px);
-        transition: 0.5s ease-in-out;
-    }
-
-    .responsive-menu span::before{
-        position: absolute;
-        content: "";
-        width: 40px;
-        height: 4px;
-        background: $color-1;
-        border-radius: 20px;
-        transform: translateY(-12px);
-        transition: 0.5s ease-in-out;
-    }
-
-    ul{        
-        display: flex;
-        align-items: center; 
-        
-        li{            
-            font-family: $font-1;
-            font-size: 1.2rem;
-            font-weight: bold;
-            padding: 0 1.5rem;
-            border: 2px solid white;
-            transition: 0.5s;
-
-            &:hover {
-                color: $color-2;
-                border: 2px solid $color-1;
-                background-color: $color-1;
-                border-radius: 10px;
-                padding: 0 1.5rem;
-            }           
-            
-            
-            
-            }          
-        }
-        i{
-            color:rgb(27,116,228);
-            font-size: 3rem;            
-            transition: 0.5s ease-in-out;
-            cursor: pointer;
-            
-
-             &:hover{
-                transform: scale(1.1);
-                transform: rotate(360deg);                
-            }        
-    }
-
-    .nav-active {
-        color: $color-1;
-        font-size: 1.5rem;
-    }
-
-}
-
-.navigation::after{
-    position: absolute;
-    content: "";
-    height: 5px;
-    width: 70%;
-    top: 90px;
-    left:0;
-    transform: translate(25%);
-    background: $color-1;
-    box-shadow: 4px 3px 5px $color-1;
-    border-radius: 10px;
-    z-index: 5; 
-}
-
-
-@media screen and (max-width:1050px) {
 .navigation { 
+  position: fixed;
+  z-index: 500; 
+  top: 0;  
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;     
+  display: flex;    
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+  transition: 0.3s ease-in-out;  
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .responsive-menu {
+    padding: 10px 0;
+    cursor: pointer;
+
+    span {
+      display: none;
+      margin: 6px 0;
+      width: 40px;
+      height: 4px;        
+      background: $color-1;
+      border-radius: 20px;
+      transition: 0.5s ease-in-out;
+
+      &::after,
+      &::before {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 4px;
+        background: $color-1;
+        border-radius: 20px;
+        transition: 0.5s ease-in-out;
+      }
+
+      &::after {
+        transform: translateY(12px);
+      }
+
+      &::before {
+        transform: translateY(-12px);
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+    align-items: center; 
+
+    li {
+      font-family: $font-1;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 0 1.5rem;
+      border: 2px solid white;
+      transition: 0.5s;
+
+      &:hover {
+        color: $color-2;
+        border: 2px solid $color-1;
+        background-color: $color-1;
+        border-radius: 10px;
+        padding: 0 1.5rem;
+      }           
+    }
+
+    i {
+      color: rgb(27,116,228);
+      font-size: 3rem;            
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1) rotate(360deg);
+      }        
+    }
+  }
+
+  .nav-active {
+    color: $color-1;
+    font-size: 1.5rem;
+  }
+}
+
+// ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+@media screen and (max-width: 1050px) {
+  .navigation {
     width: 100%;
     padding: 10px 20px;
     justify-content: space-between;    
-    
-    .show-nav{
-        left: 50%;
-        transition: 0.5s;
-    }
 
-    ul{            
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    position: fixed;
-    top: 100%;
-    left: -100%;
-    transform: translate(-50%, 0%);
-    width: 90%;
-    height: 60vh;  
-    border-radius: 10px;
-    background: rgb(213, 215, 214);
-    overflow: hidden;
-    transition: 0.5s ease-in-out;
-    
+    // Le menu UL responsive
+    .menu-links {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      position: fixed;
+      top: 100%;
+      left: -100%;
+      transform: translate(-50%, 0%);
+      width: 90%;
+      height: 60vh;  
+      border-radius: 10px;
+      background: rgb(213, 215, 214); // couleur par défaut
+      overflow: hidden;
+      transition: 0.5s ease-in-out;
 
-    li{
+      li {
         border: 2px solid transparent;
         font-size: 2rem;
         padding: 1vh 0;        
 
         &:hover { 
-            font-size: 2rem;        
-            color: $color-2;            
-            background: $color-1;
-            padding: 1vh 1rem;
-            border: 2px solid rgb(213, 215, 214);             
+          font-size: 2rem;        
+          color: $color-2;            
+          background: $color-1;
+          padding: 1vh 1rem;
+          border: 2px solid rgb(213, 215, 214);             
         }   
-            
+      }
     }
+
+    // Quand menu ouvert → appliquer la classe sur le ul uniquement
+    .menu-open {
+      left: 50%;
+      background: $color-1;
+      border: 3px solid rgb(204, 250, 231);
+      box-shadow: 4px 40px 60px #000000;
+      
+      a{
+        color: white;
+      }
+
+      .nav-active{
+        border-radius: 10px;
+        border: 2px solid white;
+      }
     }
-    .responsive-menu{
-        padding: 10px 0;
-        cursor: pointer;
+
+    // Le bouton burger
+    .responsive-menu span {
+      display: block;
     }
-    .responsive-menu span{
-        display: block;        
-    }    
-  
 
-}
-
-.show-nav.responsive-menu span::after {    
-    transform: rotate(45deg);    
-    transition: 0.5s ease-in-out;
-}
-.show-nav.responsive-menu span{
-   background: transparent;   
-   transition: 0.5s ease-in-out;
-}
-.show-nav.responsive-menu span::before {
-    margin: 0;
-    transform: rotate(-45deg);    
-    transition: 0.5s ease-in-out;
-}
-}
-@media screen and (max-width:400px){
-    .navigation{
-        padding: 10px 5px;
-
-        .logo img{
-            max-width: 70%;
-        }
+    // Effet d'ouverture du burger
+    .burger-open.responsive-menu span {
+      background: transparent;
     }
+
+    .burger-open.responsive-menu span::after {
+      transform: rotate(45deg);
+    }
+
+    .burger-open.responsive-menu span::before {
+      transform: rotate(-45deg);
+    }
+  }
 }
 
+@media screen and (max-width: 400px) {
+  .navigation {
+    padding: 10px 5px;
 
+    .logo img {
+      max-width: 70%;
+    }
+  }
+}

@@ -118,7 +118,7 @@ const Program = () => {
                         <em>Départ à 10h00 (Échauffement à 9h45).</em>
                         <ul className="nocturne-list">
                             <li className="custom-li nordique">
-                                Le Delanchy, 16km chronométrée (14€) <br />
+                                Le Delanchy, 18km chronométrée (14€) <br />
                                 <span>
                                     <i className="fa-solid fa-flag-checkered first"></i>
                                     Challenge Nordique Bretagne
@@ -134,7 +134,7 @@ const Program = () => {
                                     </button>
                                 </a>
                             </li>
-                            <li className="custom-li">7 km libre (10€)</li>
+                            <li className="custom-li">7 km libre (12€)</li>
                         </ul>
                         <div className="warning">
                             <div className="wild">
@@ -175,42 +175,39 @@ const Program = () => {
                         </strong>
                         <br />
                         <em>Premier départ à partir de 10h45.</em>
-                        <ul>
+                        <ul>                            
                             <li className="custom-li">
-                                Section actuellement en travaux.                              
-                            </li>
-                            {/* <li className="custom-li">
-                                800m (enfants nés de 2015 et +)
+                                800m (de 7 à 9 ans)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 10h45{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
-                            </li> */}
-                            {/* <li className="custom-li">
-                                2000m (enfants nés de 2014 et avant)
+                            </li>
+                            <li className="custom-li">
+                                2000m (de 10 à 11 ans)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first "></i>{' '}
                                 Départ à 11h00{' '}
                                 <i className="fa-solid fa-flag-checkered last "></i>
                             </li>
                             <li className="custom-li">
-                                3000m (enfants nés en 2012 et avant)
+                                3000m (de 12 à 16 ans)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 11h15{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
-                            </li> */}
+                            </li>
                         </ul>
-                        {/* <a
-                            href="../assets/documents/Flyer enfant VERSO.png"
-                            // target="_blank"
-                            // download="Flyer enfant VERSO.png"
-                        > */}
+                        <a
+                            href="../assets/documents/Flyer enfant 2025.png"
+                            target="_blank"
+                            download="Flyer enfant 2025.png"
+                        > 
                         <button className="btn-race">
-                            Inscriptions indisponibles
+                            Télécharger le coupon
                         </button>
-                        {/* </a> */}
-                        {/* <div className="warning">
+                        </a> 
+                         <div className="warning">
                             <div className="wild">
                                 <i className="fa-solid fa-triangle-exclamation custom"></i>
                                 <p>Pas de gobelets aux ravitaillements</p>
@@ -221,7 +218,7 @@ const Program = () => {
                         <em>
                             *Attestation d'accord parental obligatoire.<br></br>
                             Un coupon par enfant.
-                        </em> */}
+                        </em>
                     </div>
                 </section>
                 <section className="container-section program">
@@ -340,23 +337,17 @@ const Program = () => {
                                 10km - Vitré Accueil (8€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Départ: 13h35{' '}
+                                Départ: 14h15{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
-                            <li className="displayPartenaire">
-                               <p>12km - L' OTSI (8€)</p>  
-                                
+                            <li className="">
+                               <p>12km - L' OTSI (8€)</p>                                  
                                 <p>
                                     <i className="fa-solid fa-flag-checkered first"></i>
-                                    Départ: 14h15
+                                    Départ: 13h35
                                     <i className="fa-solid fa-flag-checkered last"></i>
-                                </p> 
-                                <div className='groupamaMaladieRare'>
-                                    <a href="https://www.fondation-groupama.com/" target='_blank' rel="noreferrer" >
-                                <img  src="../assets/img/sponsors/GroupamaMaladiesRare.jpg" alt="" />
-                                </a>   
-                                </div>                                                                                   
-                            </li>
+                                </p>                                                                                                                   
+                            </li>                            
                         </ul>
                         <div className="warning">
                             <div className="wild">
@@ -366,6 +357,11 @@ const Program = () => {
                             </div>
                             <p>Prévoir vos écotasses.</p>
                         </div>
+                        <div className='groupamaMaladieRare'>
+                                    <a href="https://www.fondation-groupama.com/" target='_blank' rel="noreferrer" >
+                                <img  src="../assets/img/sponsors/GroupamaMaladiesRare.jpg" alt="" />
+                                </a>   
+                                </div> 
                         <em>* Inscriptions uniquement sur place.</em>
                     </div>
                 </section>

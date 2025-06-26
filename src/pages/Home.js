@@ -92,7 +92,7 @@ const Home = () => {
                         data-aos-offset="300"
                     >
                         <h2>Actualité</h2>
-                        <a
+                        {/* <a
                             href="https://chronowest.fr/resultats/trail-muco-2024/"
                             target="_blank"
                             rel="noreferrer"
@@ -101,8 +101,15 @@ const Home = () => {
                                 src="./assets/img/résultats2024.png"
                                 alt="move for muco"
                             />
-                        </a>
-                        <p>Ouverture des inscriptions le 21 juin 2025</p>
+                        </a> */}
+                        <div className="videoPlay">
+                    <video controls autoPlay muted width="70%">
+                    <source src={`${process.env.PUBLIC_URL}/assets/video/sponsor.mp4`} type="video/mp4" />
+                    Votre navigateur ne supporte pas la vidéo HTML5.
+                    </video>
+                        </div>
+                
+                        <p>Inscriptions 2025 ouvertes!!</p>
                     </div>
                 </section>
                 <section className="container-section">

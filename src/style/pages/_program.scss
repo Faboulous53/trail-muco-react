@@ -62,28 +62,7 @@
             box-shadow: 14px 14px 5px rgba(0, 142, 130, 0.301);
 
             .nocturne-list {
-                text-align: center;
-
-                .displayPartenaire{
-                    display: flex;
-                    align-items: center;
-                    width: 80%;
-                    
-
-                    p{
-                       flex: 0 0 35%;                        
-                    }
-
-                    i{
-                        display: inline-block;                        
-                    }
-                    
-
-                    .groupamaMaladieRare img{
-                        width: 80%;
-                        flex: 0 0 50%;
-                    }
-                }
+                text-align: center;              
 
                 li {
                     padding: 10px;
@@ -130,6 +109,11 @@
                     gap: 5px;
                 }
             }
+
+            .groupamaMaladieRare img{
+                        width: 35%;
+                        flex: 0 0 50%;
+                    }
 
             @keyframes animWarning {
                 50% {
