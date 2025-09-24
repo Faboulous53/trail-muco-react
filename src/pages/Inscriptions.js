@@ -42,11 +42,10 @@ const Inscriptions = () => {
                                 </em>
                             </div>
                             <div className="inscription-bloc">
-                                <div className="containers-inscription">
-                                    <h4>Sur place:</h4>
+                                <div className="containers-inscription">                                    
                                     <p className="text">
                                         Pour des questions d'organisation, les
-                                        inscriptions sur place sont possibles
+                                        inscriptions sur place aux épreuves chronomotrées, sont possibles
                                         mais déconseillées.
                                     </p>
                                     <p className="majoration">

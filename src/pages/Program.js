@@ -173,7 +173,9 @@ const Program = () => {
                             Départ de la base de loisirs de Haute Vilaine - à St
                             M'Hervé (35)
                         </strong>
-                        <br />
+                        <br/>
+                        <h4>Inscription sur place uniquement</h4>
+                        
                         <em>Premier départ à partir de 10h45.</em>
                         <ul>                            
                             <li className="custom-li">
@@ -199,22 +201,15 @@ const Program = () => {
                             </li>
                         </ul>
                         <a
-                            href="../assets/documents/Flyer enfant 2025.png"
+                            href="../assets/documents/Flyer enfant 2025.jpg"
                             target="_blank"
-                            download="Flyer enfant 2025.png"
+                            download="Flyer enfant 2025.jpg"
                         > 
                         <button className="btn-race">
                             Télécharger le coupon
                         </button>
                         </a> 
-                         <div className="warning">
-                            <div className="wild">
-                                <i className="fa-solid fa-triangle-exclamation custom"></i>
-                                <p>Pas de gobelets aux ravitaillements</p>
-                                <i className="fa-solid fa-triangle-exclamation custom"></i>
-                            </div>
-                            <p>Prévoir vos écotasses.</p>
-                        </div>
+                         
                         <em>
                             *Attestation d'accord parental obligatoire.<br></br>
                             Un coupon par enfant.
@@ -337,7 +332,7 @@ const Program = () => {
                                 10km - Vitré Accueil (8€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Départ: 14h15{' '}
+                                Départ: 14h00{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
                             <li className="">
