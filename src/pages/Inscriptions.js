@@ -16,13 +16,13 @@ const Inscriptions = () => {
                             Les inscriptions sont actuellement ouvertes!
                         </h3> */}
                         <h3 className="">
-                            Les inscriptions sont ouvertes!
+                            Les inscriptions sont en cours de préparation.
                         </h3>
                         <div className="inscription-bloc">
                             <div className="containers-inscription">
-                                {/* <h4>Ouverture des inscriptions le 21 juin 2025.</h4>
-                                <p>Soyez prêts!</p> */}
-                                <p>
+                                <h4>Surveillez nos réseaux sociaux, soyez prêts!!</h4>
+                                
+                                {/* <p>
                                     Cliquez sur le logo de notre partenaire
                                     Klikego ci-dessous:
                                 </p>
@@ -39,9 +39,9 @@ const Inscriptions = () => {
                                 <em>
                                     * Attention, l'inscription nécessite la
                                     création d'un compte sur Klikego.{' '}
-                                </em>
+                                </em> */}
                             </div>
-                            <div className="inscription-bloc">
+                            {/* <div className="inscription-bloc">
                                 <div className="containers-inscription">                                    
                                     <p className="text">
                                         Pour des questions d'organisation, les
@@ -61,7 +61,7 @@ const Inscriptions = () => {
                                 <br />
                                 Par conséquent, uniquement pour ces courses,
                                 aucune majoration ne sera appliquée.
-                            </em>
+                            </em> */}
                         </div>
                     </div>
                 </div>

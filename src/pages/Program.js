@@ -19,16 +19,11 @@ const Program = () => {
                         Télécharger le règlement
                     </button>
                 </a>
-            <div className="first-container header-program">
-                {/* en attente de maj */}
-                {/* <div className="update">
-                <h2>Attention, il s'agit de l'édition 2023.</h2>
-                <p>Les données ci-dessous ne sont pas actualisées pour 2024</p>
-                </div>                 */}
-                <h3> Vendredi 3 octobre 2025 (soir)</h3>
-               
-
-                <section className="container-section program nocturne">
+            <div className="first-container header-program"> 
+                <div className="maj">
+                    <h3> Actuellement en cours de préparation</h3>                    
+                </div>     
+                {/* <section className="container-section program nocturne">
                     <div className="children-left">
                         <img
                             className="children-picture"
@@ -409,7 +404,7 @@ const Program = () => {
                             <p>Prévoir vos écotasses.</p>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/* <section className="container-section program end">
                     <div
                         className="children-left"
@@ -460,7 +455,7 @@ const Program = () => {
                         <em>* Chèque à l'ordre de VLM Virade de Vitré.</em>
                     </div>
                 </section> */}
-            </div>
+            </div> 
             <Footer />
             <Sponsors />
         </div>

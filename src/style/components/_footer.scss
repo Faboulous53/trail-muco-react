@@ -1,7 +1,7 @@
 .header-footer {
     width: 100%;
-    position: absolute;
-    bottom: 130px;
+    position: sticky;
+    bottom: 130px;    
     left: 0;
     display: flex;
     padding: 30px 10px;

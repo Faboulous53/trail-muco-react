@@ -9,23 +9,20 @@
         background: $color-1;
         font-family: $font-1;
         font-size: 1.2rem;
-        position: relative;
+        position: relative;        
         
-
+        .maj{
+                    
+            width: 100%;
+            height: 100%;
+            
+        }
         h3 {
             font-size: 2rem;
             font-weight: bold;
             margin: 20px 0;
         }
-//En attente de MAJ
-        .update{
-            margin: 0 auto;            
-            max-width: 50%;
-            border-radius: 10px;
-            background: rgba(243, 71, 71, 0.923);
-            color: white;
-            padding: 10px;
-        }
+
     }
 
     .program {
