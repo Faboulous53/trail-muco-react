@@ -29,6 +29,7 @@ const Sponsors = () => {
                         autoplay: true,
                         interval: 1000,
                         arrows: false,
+                        pagination: false,
                         rewind: false,
                         breakpoints: {
                             800: {

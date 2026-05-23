@@ -1,14 +1,27 @@
 import React, { useEffect, useState } from 'react';
 
 const FIREWORKS = [
-    { left: '18%', top: '22%', delay: '0s' },
-    { left: '78%', top: '20%', delay: '0.35s' },
-    { left: '28%', top: '70%', delay: '0.7s' },
-    { left: '70%', top: '68%', delay: '1.05s' },
-    { left: '50%', top: '32%', delay: '1.4s' },
+    { x: '10vw', y: '18dvh', delay: '0s' },
+    { x: '24vw', y: '32dvh', delay: '0.12s' },
+    { x: '42vw', y: '15dvh', delay: '0.24s' },
+    { x: '58vw', y: '30dvh', delay: '0.36s' },
+    { x: '82vw', y: '20dvh', delay: '0.48s' },
+    { x: '92vw', y: '42dvh', delay: '0.6s' },
+    { x: '16vw', y: '58dvh', delay: '0.72s' },
+    { x: '34vw', y: '72dvh', delay: '0.84s' },
+    { x: '50vw', y: '46dvh', delay: '0.96s' },
+    { x: '68vw', y: '66dvh', delay: '1.08s' },
+    { x: '84vw', y: '78dvh', delay: '1.2s' },
+    { x: '6vw', y: '76dvh', delay: '1.32s' },
+    { x: '30vw', y: '20dvh', delay: '1.44s' },
+    { x: '72vw', y: '14dvh', delay: '1.56s' },
+    { x: '46vw', y: '82dvh', delay: '1.68s' },
+    { x: '64vw', y: '52dvh', delay: '1.8s' },
+    { x: '20vw', y: '42dvh', delay: '1.92s' },
+    { x: '78vw', y: '58dvh', delay: '2.04s' },
 ];
 
-const SPARKS = Array.from({ length: 16 }, (_, index) => index);
+const SPARKS = Array.from({ length: 24 }, (_, index) => index);
 
 const HomeIntroPopup = () => {
     const [isVisible, setIsVisible] = useState(() => {
@@ -53,19 +66,21 @@ const HomeIntroPopup = () => {
                 {FIREWORKS.map((firework) => (
                     <div
                         className="firework"
-                        key={`${firework.left}-${firework.top}`}
+                        key={`${firework.x}-${firework.y}`}
                         style={{
-                            left: firework.left,
-                            top: firework.top,
+                            '--firework-x': firework.x,
+                            '--firework-y': firework.y,
                             animationDelay: firework.delay,
                         }}
                     >
-                        {SPARKS.map((spark) => (
-                            <span
-                                key={spark}
-                                style={{ transform: `rotate(${spark * 22.5}deg)` }}
-                            />
-                        ))}
+                        <div className="firework-burst">
+                            {SPARKS.map((spark) => (
+                                <span
+                                    key={spark}
+                                    style={{ transform: `rotate(${spark * 15}deg)` }}
+                                />
+                            ))}
+                        </div>
                     </div>
                 ))}
             </div>

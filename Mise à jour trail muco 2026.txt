@@ -2,9 +2,27 @@ Mise à jour trail muco 2026
 
 Remplacement de la photo d'accueil.
 
-Suppression des sponsor-> Demy / mytilimer
-Ajout des sponsors -> Ferron / Grillon d'or / Design parquet
+Avant page d'accueil -> Petite surprise (j'espère que vous m'en voudrez pas^^) uniquement à la première connexion au site.
 
-page Accueil -> faire un don -> remplacer un vieu document par le lien des dons des virades de l'espoir pour le trail muco pays de vitré
+version mobile -> reprise complète du visuel de la navigation plus moderne.
 
-page Accueil -> Mise à jour des chiffres dynamiques en bas de page
+page Accueil -> Suppression des sponsor-> Demy / mytilimer
+
+page Accueil -> Ajout des sponsors -> Ferron / Grillon d'or / Design parquet + redirection vers leur site web (sauf Ferron, pas de site web donc redirection vers page FB)
+
+page Accueil -> faire un don -> remplacer un vieux document par le lien des dons des virades de l'espoir pour le trail muco pays de vitré
+
+page Accueil -> mise à jour de la vidéo par celle que j'ai partagé sur WhatsApp (vitré communauté)
+
+page Accueil -> Mise à jour des chiffres dynamiques en bas de page.
+
+page Accueil -> Ajout d'un lien, vers la page instagram sur le menu de navigation.
+
+Page programme -> mise à jour.
+
+page programme -> modification du flyer enfant (qui était resté 2025). Je n'avais pas le document, je l'ai donc créé, à vérifier.
+
+Page archives -> Suppression, ça traine, ne sert à rien depuis 3 ans bref, dites-moi si vous souhaitez la modifier, les résultats des années précédentes est une idée...
+
+Inscriptions -> réouverture avec le lien vers klikego actualisé.
+

@@ -68,13 +68,15 @@
 
 .new-trail {
     margin: 10px 0;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
+    width: 100%;
 
     img {
         width: 100%;
-        min-height: 60vh;
-        object-fit: cover;
+        height: auto;
+        max-width: 100%;
+        object-fit: contain;
         object-position: center;
         display: block;
         margin: 0 auto;

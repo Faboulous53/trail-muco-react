@@ -27,7 +27,7 @@ const Home = () => {
             </header>
             <section className="new-trail">
                 <img
-                    src="./assets/img/20ème édition.svg"
+                    src="./assets/img/20ème édition.png"
                     alt="trail muco édition 2023"
                 />
             </section>

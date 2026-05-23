@@ -63,48 +63,70 @@ const Navigation = () => {
             </NavLink>
             <div
                 className={`responsive-menu ${showLinks ? 'burger-open' : ''}`}
-                onClick={handlkeShowLinks}
+                onClick={(event) => {
+                    event.stopPropagation();
+                    handlkeShowLinks();
+                }}
             >
                 <span></span>
             </div>
 
-            <ul className={`menu-links ${showLinks ? 'menu-open' : ''}`}>
+            <ul
+                className={`menu-links ${showLinks ? 'menu-open' : ''}`}
+                onClick={(event) => event.stopPropagation()}
+            >
                 <NavLink
                     to="/"
                     className={(nav) => (nav.isActive ? 'nav-active' : '')} 
-                    onClick={handleScrollToTop}                   
+                    onClick={() => {
+                        handleScrollToTop();
+                        setShowLinks(false);
+                    }}
                 >
                     <li>Accueil</li>
                 </NavLink>
                 <NavLink
                     to="/programme"
                     className={(nav) => (nav.isActive ? 'nav-active' : '')} 
-                    onClick={handleScrollToTop}                   
+                    onClick={() => {
+                        handleScrollToTop();
+                        setShowLinks(false);
+                    }}
                 >
                     <li>Programme</li>
                 </NavLink>
                 <NavLink
                     to="/inscriptions"
                     className={(nav) => (nav.isActive ? 'nav-active' : '')}  
-                    onClick={handleScrollToTop}                  
+                    onClick={() => {
+                        handleScrollToTop();
+                        setShowLinks(false);
+                    }}
                 >
                     <li>Inscriptions</li>
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                     to="/archives"
                     className={(nav) => (nav.isActive ? 'nav-active' : '')}  
-                    onClick={handleScrollToTop}                  
+                    onClick={() => {
+                        handleScrollToTop();
+                        setShowLinks(false);
+                    }}
                 >
                     <li>Archives</li>
-                </NavLink>
+                </NavLink> */}
                 <NavLink
                     to="/contact"
                     className={(nav) => (nav.isActive ? 'nav-active' : '')}    
-                    onClick={handleScrollToTop}                
+                    onClick={() => {
+                        handleScrollToTop();
+                        setShowLinks(false);
+                    }}
                 >
                     <li>Contact</li>
                 </NavLink>
                 <a
+                    className="social-link"
                     href="https://www.instagram.com/trailmuco_du_pays_de_vitre_/"
                     target="_blank"
                     rel="noreferrer"
@@ -113,6 +135,7 @@ const Navigation = () => {
                     <i className="fa-brands fa-instagram"></i>
                 </a>
                 <a
+                    className="social-link"
                     href="https://www.facebook.com/TrailMucoDuPaysDeVitre/?locale=fr_FR"
                     target="_blank"
                     rel="noreferrer"
