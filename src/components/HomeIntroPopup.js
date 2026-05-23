@@ -39,7 +39,10 @@ const FIREWORKS = [
     { x: '94vw', y: '66dvh', delay: '2.8s', scale: 0.84 },
 ];
 
-const SPARKS = Array.from({ length: 40 }, (_, index) => index);
+const DESKTOP_FIREWORKS = FIREWORKS.filter((_, index) => index % 2 === 0);
+const SPARKS = Array.from({ length: 20 }, (_, index) => index);
+const MOBILE_FIREWORKS = FIREWORKS.filter((_, index) => index % 3 === 0);
+const MOBILE_SPARKS = Array.from({ length: 12 }, (_, index) => index);
 
 const HomeIntroPopup = () => {
     const [isVisible, setIsVisible] = useState(() => {
@@ -49,7 +52,34 @@ const HomeIntroPopup = () => {
 
         return localStorage.getItem('trailMucoIntroSeen') !== 'true';
     });
+    const [isLightAnimation, setIsLightAnimation] = useState(false);
     const [isLeaving, setIsLeaving] = useState(false);
+
+    useEffect(() => {
+        if (typeof window === 'undefined') {
+            return undefined;
+        }
+
+        const mediaQuery = window.matchMedia(
+            '(max-width: 768px), (pointer: coarse), (prefers-reduced-motion: reduce)'
+        );
+        const updateAnimationMode = () => setIsLightAnimation(mediaQuery.matches);
+
+        updateAnimationMode();
+        if (mediaQuery.addEventListener) {
+            mediaQuery.addEventListener('change', updateAnimationMode);
+        } else {
+            mediaQuery.addListener(updateAnimationMode);
+        }
+
+        return () => {
+            if (mediaQuery.removeEventListener) {
+                mediaQuery.removeEventListener('change', updateAnimationMode);
+            } else {
+                mediaQuery.removeListener(updateAnimationMode);
+            }
+        };
+    }, []);
 
     useEffect(() => {
         if (!isVisible) {
@@ -75,13 +105,18 @@ const HomeIntroPopup = () => {
         return null;
     }
 
+    const fireworks = isLightAnimation ? MOBILE_FIREWORKS : DESKTOP_FIREWORKS;
+    const sparks = isLightAnimation ? MOBILE_SPARKS : SPARKS;
+
     return (
         <div
-            className={`home-intro-popup${isLeaving ? ' is-leaving' : ''}`}
+            className={`home-intro-popup${isLeaving ? ' is-leaving' : ''}${
+                isLightAnimation ? ' is-light-animation' : ''
+            }`}
             aria-live="polite"
         >
             <div className="home-intro-fireworks" aria-hidden="true">
-                {FIREWORKS.map((firework) => (
+                {fireworks.map((firework) => (
                     <div
                         className="firework"
                         key={`${firework.x}-${firework.y}`}
@@ -93,10 +128,14 @@ const HomeIntroPopup = () => {
                         }}
                     >
                         <div className="firework-burst">
-                            {SPARKS.map((spark) => (
+                            {sparks.map((spark) => (
                                 <span
                                     key={spark}
-                                    style={{ transform: `rotate(${spark * 9}deg)` }}
+                                    style={{
+                                        transform: `rotate(${
+                                            spark * (360 / sparks.length)
+                                        }deg)`,
+                                    }}
                                 />
                             ))}
                         </div>
