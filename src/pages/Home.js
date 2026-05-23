@@ -112,7 +112,7 @@ const Home = () => {
                             </video>
                         </div>
 
-                        <p>Inscriptions 2026 en préparation</p>
+                        <p>Inscriptions 2026 ouvertes!</p>
                     </div>
                 </section>
                 <section className="container-section">

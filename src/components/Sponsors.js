@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import sponsorsData from '../data/sponsorsData';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import '@splidejs/react-splide/css';
 
 const Sponsors = () => {
@@ -23,22 +24,26 @@ const Sponsors = () => {
                     aria-label="My Favorite Images"
                     options={{
                         type: 'loop',
-                        fixedWidth: '210px',
+                        autoWidth: true,
                         perMove: 1,
-                        gap: '8px',
-                        autoplay: true,
-                        interval: 1000,
+                        gap: '2px',
+                        autoScroll: {
+                            speed: 0.6,
+                            pauseOnHover: false,
+                            pauseOnFocus: false,
+                        },
                         arrows: false,
                         pagination: false,
                         rewind: false,
                         breakpoints: {
                             800: {
-                                fixedWidth: '160px',
-                                gap: '6px',
+                                gap: '2px',
+                            },
+                            620: {
+                                gap: '0px',
                             },
                             420: {
-                                fixedWidth: '125px',
-                                gap: '4px',
+                                gap: '0px',
                             },
                         },
                         // Avant fonction math.random la valeur était de 0
@@ -48,6 +53,7 @@ const Sponsors = () => {
                                 : Math.random() * (sponsorsData.length - 0) + 0
                         }`,
                     }}
+                    extensions={{ AutoScroll }}
                     onMoved={handleSlideMoved}
                     ref={splideRef}
                 >
