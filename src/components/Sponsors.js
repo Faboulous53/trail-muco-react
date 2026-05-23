@@ -1,39 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import sponsorsData from '../data/sponsorsData';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
 const Sponsors = () => {
-    const [widthWindow, setWidthWindow] = useState(
-        window.innerWidth >= 1800 ? 6 : 3
-    );
     const [actualSlide, setActualSlide] = useState(
         parseInt(localStorage.getItem('currentIndex'), 10) || 0
     );
-
-    useEffect(() => {
-        const handleResize = () => {
-            switch (true) {
-                case window.innerWidth < 400:
-                    setWidthWindow(4);
-                    break;
-                case window.innerWidth < 800:
-                    setWidthWindow(3);
-                    break;
-                case window.innerWidth < 1700:
-                    setWidthWindow(4);
-                    break;
-                case window.innerWidth < 1800:
-                    setWidthWindow(6);
-                    break;
-                default:
-                    setWidthWindow(8);
-                    break;
-            }
-        };
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, [widthWindow]);
 
     const splideRef = React.useRef(); // créer une référence pour accéder au composant Splide
 
@@ -50,13 +23,23 @@ const Sponsors = () => {
                     aria-label="My Favorite Images"
                     options={{
                         type: 'loop',
-                        perPage: `${widthWindow}`,
+                        fixedWidth: '210px',
                         perMove: 1,
-                        gap: '5px',
+                        gap: '8px',
                         autoplay: true,
                         interval: 1000,
                         arrows: false,
                         rewind: false,
+                        breakpoints: {
+                            800: {
+                                fixedWidth: '160px',
+                                gap: '6px',
+                            },
+                            420: {
+                                fixedWidth: '125px',
+                                gap: '4px',
+                            },
+                        },
                         // Avant fonction math.random la valeur était de 0
                         start: `${
                             actualSlide !== undefined

@@ -3,10 +3,12 @@ import { NavLink } from 'react-router-dom';
 import Sponsors from '../components/Sponsors';
 import Numbers from '../components/Numbers';
 import Footer from '../components/Footer';
+import HomeIntroPopup from '../components/HomeIntroPopup';
 
 const Home = () => {
     return (
         <div>
+            <HomeIntroPopup />
             <Navigation />
             <header className="content-header">
                 <div className="site-off">
@@ -25,11 +27,9 @@ const Home = () => {
             </header>
             <section className="new-trail">
                 <img
-                    src="./assets/img/imageSlider1-2.png"
+                    src="./assets/img/20ème édition.svg"
                     alt="trail muco édition 2023"
                 />
-                <h1>Trail Muco</h1>
-                <h3>2 et 3 octobre 2026</h3>
             </section>
             <div className="first-container">
                 <section className="container-section">
@@ -91,7 +91,7 @@ const Home = () => {
                         data-aos="fade-left"
                         data-aos-offset="300"
                     >
-                        <h2>Actualité</h2>
+                        <h2>L'histoire du trail muco</h2>
                         {/* <a
                             href="https://chronowest.fr/resultats/trail-muco-2024/"
                             target="_blank"
@@ -103,12 +103,15 @@ const Home = () => {
                             />
                         </a> */}
                         <div className="videoPlay">
-                    <video controls autoPlay muted width="70%">
-                    <source src={`${process.env.PUBLIC_URL}/assets/video/sponsor.mp4`} type="video/mp4" />
-                    Votre navigateur ne supporte pas la vidéo HTML5.
-                    </video>
+                            <video controls autoPlay muted width="70%">
+                                <source
+                                    src={`${process.env.PUBLIC_URL}/assets/video/[ B.O. de nos communes - La Chapelle-Erbrée].mp4`}
+                                    type="video/mp4"
+                                />
+                                Votre navigateur ne supporte pas la vidéo HTML5.
+                            </video>
                         </div>
-                
+
                         <p>Inscriptions 2026 en préparation</p>
                     </div>
                 </section>
@@ -159,9 +162,9 @@ const Home = () => {
                                 </button>
                             </NavLink>
                             <a
-                                href="./assets/documents/Dépliant-TM-2023.pdf"
+                                href="https://virades.collectemuco.org/project/vitre/donate"
                                 target="_blank"
-                                download="Dépliant-TM-2023.pdf"
+                                rel="noopener noreferrer"
                             >
                                 <button className="btn">
                                     <i className="fa-solid fa-circle-dollar-to-slot"></i>

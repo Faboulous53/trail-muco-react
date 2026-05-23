@@ -105,6 +105,14 @@ const Navigation = () => {
                     <li>Contact</li>
                 </NavLink>
                 <a
+                    href="https://www.instagram.com/trailmuco_du_pays_de_vitre_/"
+                    target="_blank"
+                    rel="noreferrer"
+                    
+                >
+                    <i className="fa-brands fa-instagram"></i>
+                </a>
+                <a
                     href="https://www.facebook.com/TrailMucoDuPaysDeVitre/?locale=fr_FR"
                     target="_blank"
                     rel="noreferrer"

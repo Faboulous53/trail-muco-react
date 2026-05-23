@@ -10,20 +10,18 @@ const Program = () => {
             <div className="container-title">
                 <h2>Programme</h2>
             </div>
-             <a
-                    href="../assets/documents/Reglement Trail Muco.pdf"
-                    target="_blank"
-                    download="Reglement Trail Muco.pdf"
-                >
-                    <button className="btn-race">
-                        Télécharger le règlement
-                    </button>
-                </a>
-            <div className="first-container header-program"> 
+            <a
+                href="../assets/documents/Reglement Trail Muco.pdf"
+                target="_blank"
+                download="Reglement Trail Muco.pdf"
+            >
+                <button className="btn-race">Télécharger le règlement</button>
+            </a>
+            <div className="first-container header-program">
                 <div className="maj">
-                    <h3> Actuellement en cours de préparation</h3>                    
-                </div>     
-                {/* <section className="container-section program nocturne">
+                    <h3>Vendredi 3 octobre 2026 au soir</h3>
+                </div>
+                <section className="container-section program nocturne">
                     <div className="children-left">
                         <img
                             className="children-picture"
@@ -37,13 +35,13 @@ const Program = () => {
                             Départ centre bourg de La Chapelle Erbrée.
                         </strong>
                         <br />
-                        <em>
-                            <i className="fa-solid fa-flag-checkered first "></i>{' '}
-                            Départs groupés à 20h00{' '}
-                            <i className="fa-solid fa-flag-checkered last"></i>
-                        </em>
                         <ul className="nocturne-list">
                             <li className="custom-li">
+                                <em>
+                                    <i className="fa-solid fa-flag-checkered first "></i>{' '}
+                                    Départs à 20h00{' '}
+                                    <i className="fa-solid fa-flag-checkered last"></i>
+                                </em>
                                 12 km (12€)
                                 <a
                                     href="../assets/img/parcours/Trail Muco cap'tambule 12Km 2025.pdf"
@@ -56,6 +54,11 @@ const Program = () => {
                                 </a>
                             </li>
                             <li className="custom-li">
+                                <em>
+                                    <i className="fa-solid fa-flag-checkered first "></i>{' '}
+                                    Départs à 20h15{' '}
+                                    <i className="fa-solid fa-flag-checkered last"></i>
+                                </em>
                                 5 km (10€)
                                 <a
                                     href="../assets/img/parcours/Trail Muco petite cap'tambule 5Km 2025-1.pdf"
@@ -85,7 +88,7 @@ const Program = () => {
                     </div>
                 </section>
 
-                <h3> Samedi 4 octobre 2025 </h3>
+                <h3> Samedi 4 octobre 2026 </h3>
 
                 <section className="container-section program">
                     <div
@@ -110,13 +113,17 @@ const Program = () => {
                             M'Hervé (35)
                         </strong>
                         <br />
-                        <em>Départ à 10h00 (Échauffement à 9h45).</em>
                         <ul className="nocturne-list">
                             <li className="custom-li nordique">
                                 Le Delanchy, 18km chronométrée (14€) <br />
                                 <span>
                                     <i className="fa-solid fa-flag-checkered first"></i>
                                     Challenge Nordique Bretagne
+                                    <i className="fa-solid fa-flag-checkered last"></i>
+                                </span>
+                                <span>
+                                    <i className="fa-solid fa-flag-checkered first"></i>
+                                    Départ à 10h00
                                     <i className="fa-solid fa-flag-checkered last"></i>
                                 </span>
                                 <a
@@ -129,7 +136,15 @@ const Program = () => {
                                     </button>
                                 </a>
                             </li>
-                            <li className="custom-li">7 km libre (12€)</li>
+
+                            <li className="custom-li">
+                                <span>
+                                    <i className="fa-solid fa-flag-checkered first"></i>
+                                    Départ à 10h05
+                                    <i className="fa-solid fa-flag-checkered last"></i>
+                                </span>
+                                7 km libre (12€)
+                            </li>
                         </ul>
                         <div className="warning">
                             <div className="wild">
@@ -168,43 +183,43 @@ const Program = () => {
                             Départ de la base de loisirs de Haute Vilaine - à St
                             M'Hervé (35)
                         </strong>
-                        <br/>
+                        <br />
                         <h4>Inscription sur place uniquement</h4>
-                        
+
                         <em>Premier départ à partir de 10h45.</em>
-                        <ul>                            
+                        <ul>
                             <li className="custom-li">
                                 800m (de 7 à 9 ans)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Départ à 10h45{' '}
+                                Départ à 10h15{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
                             <li className="custom-li">
                                 2000m (de 10 à 11 ans)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first "></i>{' '}
-                                Départ à 11h00{' '}
+                                Départ à 10h30{' '}
                                 <i className="fa-solid fa-flag-checkered last "></i>
                             </li>
                             <li className="custom-li">
                                 3000m (de 12 à 16 ans)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Départ à 11h15{' '}
+                                Départ à 10h45{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
                         </ul>
                         <a
-                            href="../assets/documents/Flyer enfant 2025.jpg"
+                            href="../assets/documents/Flyer enfant 2026.png"
                             target="_blank"
-                            download="Flyer enfant 2025.jpg"
-                        > 
-                        <button className="btn-race">
-                            Télécharger le coupon
-                        </button>
-                        </a> 
-                         
+                            download="Flyer enfant 2026.png"
+                        >
+                            <button className="btn-race">
+                                Télécharger le coupon
+                            </button>
+                        </a>
+
                         <em>
                             *Attestation d'accord parental obligatoire.<br></br>
                             Un coupon par enfant.
@@ -236,7 +251,7 @@ const Program = () => {
                         <br />
                         <ul>
                             <li className="custom-li">
-                                29km (14€)
+                                30km (14€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 13h30{' '}
@@ -252,7 +267,7 @@ const Program = () => {
                                 </a>
                             </li>
                             <li className="custom-li">
-                                La Groupama 22km (14€)
+                                La Groupama 20km (14€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 14h00{' '}
@@ -268,7 +283,7 @@ const Program = () => {
                                 </a>
                             </li>
                             <li className="custom-li">
-                                La Pigeon 10km (14€)
+                                La Pigeon 11km (14€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 15h00{' '}
@@ -324,20 +339,20 @@ const Program = () => {
 
                         <ul className="nocturne-list">
                             <li className="">
-                                10km - Vitré Accueil (8€)
+                                8km - Vitré Accueil (8€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Départ: 14h00{' '}
+                                Départ: 14h05{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                             </li>
                             <li className="">
-                               <p>12km - L' OTSI (8€)</p>                                  
+                                <p>10km - L' OTSI (8€)</p>
                                 <p>
                                     <i className="fa-solid fa-flag-checkered first"></i>
                                     Départ: 13h35
                                     <i className="fa-solid fa-flag-checkered last"></i>
-                                </p>                                                                                                                   
-                            </li>                            
+                                </p>
+                            </li>
                         </ul>
                         <div className="warning">
                             <div className="wild">
@@ -347,14 +362,22 @@ const Program = () => {
                             </div>
                             <p>Prévoir vos écotasses.</p>
                         </div>
-                        <div className='groupamaMaladieRare'>
-                                    <a href="https://www.fondation-groupama.com/" target='_blank' rel="noreferrer" >
-                                <img  src="../assets/img/sponsors/GroupamaMaladiesRare.jpg" alt="" />
-                                </a>   
-                                </div> 
+                        <div className="groupamaMaladieRare">
+                            <a
+                                href="https://www.fondation-groupama.com/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <img
+                                    src="../assets/img/sponsors/GroupamaMaladiesRare.jpg"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
                         <em>* Inscriptions uniquement sur place.</em>
                     </div>
                 </section>
+                <h3>Vendredi 3 octobre et samedi 4 octobre 2026</h3>
                 <section className="container-section program end">
                     <div
                         className="children-left"
@@ -372,7 +395,7 @@ const Program = () => {
                         data-aos="fade-left"
                         data-aos-offset="200"
                     >
-                        <h2>Défi Planchais</h2>
+                        <h2>Défis</h2>
                         <strong>
                             Départ de la base de loisirs de Haute Vilaine - à St
                             M'Hervé (35)
@@ -380,15 +403,21 @@ const Program = () => {
 
                         <ul className="nocturne-list">
                             <li className="custom-li">
-                                34km (20€)
+                              Défi Planchais 34km (22€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Vendredi 4 octobre à 20h00 (Cap'Tambule).
+                                Classement et récompenses par cumul de la Cap'Tambule 12 km et du trail 20km
                                 <i className="fa-solid fa-flag-checkered last"></i>
                                 <br />
+                               
+                            </li>
+                             <li className="custom-li">
+                              Petit défi 16km (20€)
+                                <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Samedi 5 octobre à 14h00 (La Groupama 22km)
+                                Classement et récompenses par cumul de la Cap'Tambule 5 km et du trail 11km
                                 <i className="fa-solid fa-flag-checkered last"></i>
+                                <br />                               
                             </li>
                         </ul>
                         <em>
@@ -404,7 +433,7 @@ const Program = () => {
                             <p>Prévoir vos écotasses.</p>
                         </div>
                     </div>
-                </section> */}
+                </section>
                 {/* <section className="container-section program end">
                     <div
                         className="children-left"
@@ -455,7 +484,7 @@ const Program = () => {
                         <em>* Chèque à l'ordre de VLM Virade de Vitré.</em>
                     </div>
                 </section> */}
-            </div> 
+            </div>
             <Footer />
             <Sponsors />
         </div>

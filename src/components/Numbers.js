@@ -43,7 +43,7 @@ function Numbers() {
                         }}
                     ></CountUp>
                 ) : (
-                    <span>19</span>
+                    <span>20 ème</span>
                 )}                
                 <p>édition</p>
             </div>
@@ -61,7 +61,7 @@ function Numbers() {
                         }}
                     ></CountUp>
                 ) : (
-                    <span>338 126€</span>
+                    <span>370 421€</span>
                 )}
                 <p>reversés à la muco</p>
             </div>
@@ -75,9 +75,9 @@ function Numbers() {
                         duration={6}
                     ></CountUp>
                 ) : (
-                    <span>1 407</span>
+                    <span>1 689</span>
                 )}
-                <p>participants en 2024</p>
+                <p>participants en 2025</p>
             </div>
         </div>
     );

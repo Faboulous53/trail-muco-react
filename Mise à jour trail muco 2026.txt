@@ -1,0 +1,10 @@
+Mise à jour trail muco 2026
+
+Remplacement de la photo d'accueil.
+
+Suppression des sponsor-> Demy / mytilimer
+Ajout des sponsors -> Ferron / Grillon d'or / Design parquet
+
+page Accueil -> faire un don -> remplacer un vieu document par le lien des dons des virades de l'espoir pour le trail muco pays de vitré
+
+page Accueil -> Mise à jour des chiffres dynamiques en bas de page

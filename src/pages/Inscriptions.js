@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Sponsors from '../components/Sponsors';
+import Footer from '../components/Footer';
 
 const Inscriptions = () => {
     return (
@@ -16,18 +17,18 @@ const Inscriptions = () => {
                             Les inscriptions sont actuellement ouvertes!
                         </h3> */}
                         <h3 className="">
-                            Les inscriptions sont en cours de préparation.
+                            Les inscriptions sont ouvertes.
                         </h3>
                         <div className="inscription-bloc">
                             <div className="containers-inscription">
                                 <h4>Surveillez nos réseaux sociaux, soyez prêts!!</h4>
                                 
-                                {/* <p>
+                                <p>
                                     Cliquez sur le logo de notre partenaire
                                     Klikego ci-dessous:
                                 </p>
                                 <a
-                                    href="https://www.klikego.com/inscription/trail-muco-pays-de-vitre-19eme-edition-2025/running-marche-nordique/1432099242027-11"
+                                    href="https://www.klikego.com/inscription/trail-muco-pays-de-vitre-20eme-edition-2026/running-marche-nordique/1432099242027-12"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -39,9 +40,9 @@ const Inscriptions = () => {
                                 <em>
                                     * Attention, l'inscription nécessite la
                                     création d'un compte sur Klikego.{' '}
-                                </em> */}
+                                </em> 
                             </div>
-                            {/* <div className="inscription-bloc">
+                            <div className="inscription-bloc">
                                 <div className="containers-inscription">                                    
                                     <p className="text">
                                         Pour des questions d'organisation, les
@@ -61,11 +62,11 @@ const Inscriptions = () => {
                                 <br />
                                 Par conséquent, uniquement pour ces courses,
                                 aucune majoration ne sera appliquée.
-                            </em> */}
+                            </em>
                         </div>
                     </div>
                 </div>
-                {/* <Footer /> */}
+                <Footer />
                 <Sponsors />
             </div>
         </div>

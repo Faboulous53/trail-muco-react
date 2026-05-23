@@ -72,7 +72,6 @@
     }
 
     i {
-      color: rgb(27,116,228);
       font-size: 3rem;            
       transition: 0.5s ease-in-out;
       cursor: pointer;
@@ -80,6 +79,25 @@
       &:hover {
         transform: scale(1.1) rotate(360deg);
       }        
+    }
+
+    .fa-facebook {
+      color: rgb(27,116,228);
+    }
+
+    .fa-instagram {
+      color: transparent;
+      background: linear-gradient(
+        45deg,
+        #feda75,
+        #fa7e1e,
+        #d62976,
+        #962fbf,
+        #4f5bd5
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+      margin-right: 10px;
     }
   }
 
