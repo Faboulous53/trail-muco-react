@@ -11,9 +11,9 @@ const Program = () => {
                 <h2>Programme</h2>
             </div>
             <a
-                href="../assets/documents/Reglement Trail Muco.pdf"
+                href="../assets/documents/v2-reglement trail muco.pdf"
                 target="_blank"
-                download="Reglement Trail Muco.pdf"
+                download="v2-reglement trail muco.pdf"
             >
                 <button className="btn-race">Télécharger le règlement</button>
             </a>
