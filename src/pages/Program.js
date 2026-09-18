@@ -408,7 +408,7 @@ const Program = () => {
                         <em>* Tarif réduit 4 euros pour les - 16 ans.</em>
                     </div>
                 </section>
-                <h3>Vendredi 3 octobre et samedi 4 octobre 2026</h3>
+                <h3>Vendredi 2 octobre et samedi 3 octobre 2026</h3>
                 <section className="container-section program end">
                     <div
                         className="children-left"
