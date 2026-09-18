@@ -2,10 +2,12 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
+import ProgramRegulationPopup from '../components/ProgramRegulationPopup';
 
 const Program = () => {
     return (
         <div className="section-program">
+            <ProgramRegulationPopup />
             <Navigation />
             <div className="container-title">
                 <h2>Programme</h2>
@@ -19,7 +21,7 @@ const Program = () => {
             </a>
             <div className="first-container header-program">
                 <div className="maj">
-                    <h3>Vendredi 3 octobre 2026 au soir</h3>
+                    <h3>Vendredi 2 octobre 2026 au soir</h3>
                 </div>
                 <section className="container-section program nocturne">
                     <div className="children-left">
@@ -44,9 +46,9 @@ const Program = () => {
                                 </em>
                                 12 km (12€)
                                 <a
-                                    href="../assets/img/parcours/Trail Muco cap'tambule 12Km 2025.pdf"
+                                    href="../assets/img/parcours/Trail Muco cap'tambule 12Km 2026.pdf"
                                     target="_blank"
-                                    download="Trail Muco cap'tambule 12Km 2025.pdf"
+                                    download="Trail Muco cap'tambule 12Km 2026.pdf"
                                 >
                                     <button className="btn-race">
                                         Télécharger le tracé
@@ -61,9 +63,9 @@ const Program = () => {
                                 </em>
                                 5 km (10€)
                                 <a
-                                    href="../assets/img/parcours/Trail Muco petite cap'tambule 5Km 2025-1.pdf"
+                                    href="../assets/img/parcours/Trail Muco petite cap'tambule 5Km 2026.pdf"
                                     target="_blank"
-                                    download="Trail Muco petite cap'tambule 5Km 2025-1.pdf"
+                                    download="Trail Muco petite cap'tambule 5Km 2026.pdf"
                                 >
                                     <button className="btn-race">
                                         Télécharger le tracé
@@ -88,7 +90,7 @@ const Program = () => {
                     </div>
                 </section>
 
-                <h3> Samedi 4 octobre 2026 </h3>
+                <h3> Samedi 3 octobre 2026 </h3>
 
                 <section className="container-section program">
                     <div
@@ -127,9 +129,9 @@ const Program = () => {
                                     <i className="fa-solid fa-flag-checkered last"></i>
                                 </span>
                                 <a
-                                    href="../assets/img/parcours/MARCHE_NORDIQUE_CHRONOMETREE_16KM_page-0001.jpg"
+                                    href="../assets/img/parcours/La Delanchy 2026 prefec.pdf"
                                     target="_blank"
-                                    download="MARCHE_NORDIQUE_CHRONOMETREE_16KM_page-0001.jpg"
+                                    download="La Delanchy 2026 prefec.pdf"
                                 >
                                     <button className="btn-race">
                                         Télécharger le tracé
@@ -144,6 +146,15 @@ const Program = () => {
                                     <i className="fa-solid fa-flag-checkered last"></i>
                                 </span>
                                 7 km libre (12€)
+                                 <a
+                                    href="../assets/img/parcours/Marche nordique 7Km libre.pdf"
+                                    target="_blank"
+                                    download="Marche nordique 7Km libre.pdf"
+                                >
+                                    <button className="btn-race">
+                                        Télécharger le tracé
+                                    </button>
+                                </a>
                             </li>
                         </ul>
                         <div className="warning">
@@ -156,7 +167,7 @@ const Program = () => {
                         </div>
                         <em>
                             * Licence FFA ou attestation PPS obligatoire
-                            (uniquement pour le 16km).
+                            (uniquement pour le 18km).
                         </em>
                     </div>
                 </section>
@@ -257,9 +268,9 @@ const Program = () => {
                                 Départ à 13h30{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                                 <a
-                                    href="../assets/img/parcours/Trail Muco 29Km 2025.pdf"
+                                    href="../assets/img/parcours/Tracé 30KM  muco 2026 v1.pdf"
                                     target="_blank"
-                                    download="Trail Muco 29Km 2025.pdf"
+                                    download="Tracé 30KM  muco 2026 v1.pdf"
                                 >
                                     <button className="btn-race">
                                         Télécharger le tracé
@@ -267,15 +278,15 @@ const Program = () => {
                                 </a>
                             </li>
                             <li className="custom-li">
-                                La Groupama 20km (14€)
+                                La Groupama 21km (14€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ à 14h00{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                                 <a
-                                    href="../assets/img/parcours/Trail Muco 22Km 2025.pdf"
+                                    href="../assets/img/parcours/Tracé 21KM  muco 2026 v1.pdf"
                                     target="_blank"
-                                    download="Trail Muco 22Km 2025.pdf"
+                                    download="Tracé 21KM  muco 2026 v1.pdf"
                                 >
                                     <button className="btn-race">
                                         Télécharger le tracé
@@ -289,9 +300,9 @@ const Program = () => {
                                 Départ à 15h00{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
                                 <a
-                                    href="../assets/img/parcours/Trail Muco 10Km 2025.pdf"
+                                    href="../assets/img/parcours/Tracé 11KM  muco 2026 v1.pdf"
                                     target="_blank"
-                                    download="Trail Muco 10Km 2025.pdf"
+                                    download="Tracé 11KM  muco 2026 v1.pdf"
                                 >
                                     <button className="btn-race">
                                         Télécharger le tracé
@@ -344,14 +355,32 @@ const Program = () => {
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Départ: 14h05{' '}
                                 <i className="fa-solid fa-flag-checkered last"></i>
+                                <a
+                                    href="../assets/img/parcours/Rando office de tourisme Vitré  8Km8.pdf"
+                                    target="_blank"
+                                    download="Rando office de tourisme Vitré  8Km8.pdf"
+                                >
+                                    <button className="btn-race">
+                                        Télécharger le tracé
+                                    </button>
+                                </a>
                             </li>
                             <li className="">
-                                <p>10km - L' OTSI (8€)</p>
+                                <p>9km - L' OTSI (8€)</p>
                                 <p>
                                     <i className="fa-solid fa-flag-checkered first"></i>
                                     Départ: 13h35
                                     <i className="fa-solid fa-flag-checkered last"></i>
                                 </p>
+                                 <a
+                                    href="../assets/img/parcours/Rando L'Otsi  9Km5.pdf"
+                                    target="_blank"
+                                    download="Rando L'Otsi  9Km5.pdf"
+                                >
+                                    <button className="btn-race">
+                                        Télécharger le tracé
+                                    </button>
+                                </a>
                             </li>
                         </ul>
                         <div className="warning">
@@ -375,6 +404,8 @@ const Program = () => {
                             </a>
                         </div>
                         <em>* Inscriptions uniquement sur place.</em>
+                        <br />
+                        <em>* Tarif réduit 4 euros pour les - 16 ans.</em>
                     </div>
                 </section>
                 <h3>Vendredi 3 octobre et samedi 4 octobre 2026</h3>
@@ -403,16 +434,11 @@ const Program = () => {
 
                         <ul className="nocturne-list">
                             <li className="custom-li">
-                              Défi Planchais 34km (22€)
-                                <br />
-                                <i className="fa-solid fa-flag-checkered first"></i>{' '}
-                                Classement et récompenses par cumul de la Cap'Tambule 12 km et du trail 20km
-                                <i className="fa-solid fa-flag-checkered last"></i>
-                                <br />
-                               
+                              Défi Planchais 32km (22€)
+                                <br />                           
                             </li>
                              <li className="custom-li">
-                              Petit défi 16km (20€)
+                              Défi Tourneux 16km (20€)
                                 <br />
                                 <i className="fa-solid fa-flag-checkered first"></i>{' '}
                                 Classement et récompenses par cumul de la Cap'Tambule 5 km et du trail 11km
